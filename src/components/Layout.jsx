@@ -2,6 +2,7 @@ import logoCamaleon from "../assets/images/logoCamaleon.png";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
+import PageTransition from "./PageTransition";
 
 import {
   FaHome,
@@ -69,7 +70,7 @@ export default function Layout() {
             <LinkItem to="/" icon={<FaHome />}>
               Inicio
             </LinkItem>
-            <LinkItem to="/partidos" icon={<FaCalendarAlt />}>
+            <LinkItem to="/cronograma" icon={<FaCalendarAlt />}>
               Cronograma
             </LinkItem>
             <LinkItem to="/tabla" icon={<FaTable />}>
@@ -134,7 +135,7 @@ export default function Layout() {
                 </LinkItem>
                 <LinkItem
                   mobile
-                  to="/partidos"
+                  to="/cronograma"
                   icon={<FaCalendarAlt />}
                   onNavigate={() => setOpen(false)}>
                   Cronograma
@@ -166,9 +167,9 @@ export default function Layout() {
         )}
       </AnimatePresence>
 
-      <main>
+      <PageTransition>
         <Outlet />
-      </main>
+      </PageTransition>
 
       <footer className="mt-10 border-t border-slate-200">
         <div className="mx-auto max-w-6xl px-4 py-6 text-sm text-slate-500 flex items-center justify-center">
