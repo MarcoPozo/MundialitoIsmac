@@ -1,0 +1,17 @@
+[
+    {
+        "id": "m1",
+        "datetime": "2025-08-22T15:00:00-05:00",
+        "venue": "Cancha A",
+        "round": "J1",
+        "homeId": "t1",
+        "homeName": "Manchester",
+        "homeLogo": "/escudos/manchesterUnited.png",
+        "awayId": "t2",
+        "awayName": "JuventusFC",
+        "awayLogo": "/escudos/juventusFC.png",
+        "homeScore": 0,
+        "awayScore": 0,
+        "status": "scheduled"
+    }
+]
