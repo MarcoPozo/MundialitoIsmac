@@ -1,17 +1,28 @@
 [
     {
-        "id": "m1",
-        "datetime": "2025-08-22T15:00:00-05:00",
-        "venue": "Cancha A",
-        "round": "J1",
-        "homeId": "t1",
-        "homeName": "Manchester",
-        "homeLogo": "/escudos/manchesterUnited.png",
-        "awayId": "t2",
-        "awayName": "JuventusFC",
-        "awayLogo": "/escudos/juventusFC.png",
-        "homeScore": 0,
-        "awayScore": 0,
-        "status": "scheduled"
+        "id_partido": "m1",
+        "fecha_hora": "2025-08-23T17:00:00-05:00",
+        "sede": "Cancha 3",
+        "jornada": null,
+        "fase": "liga",
+        "estado": "programado",
+        "categoria": "Libre",
+        "genero": "Femenino",
+        "grupo": null,
+        "equipo1": {
+            "id": "t1",
+            "nombre": "Manchester United",
+            "escudo": "/escudos/manchesterUnited.png",
+            "goles": null
+        },
+        "equipo2": {
+            "id": "t2",
+            "nombre": "Tottenham",
+            "escudo": "/escudos/tottenham.png",
+            "goles": null
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
     }
 ]
