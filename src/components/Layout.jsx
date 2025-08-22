@@ -19,6 +19,20 @@ export default function Layout() {
   const panelRef = useRef(null);
   const btnRef = useRef(null);
 
+  /* Nav Items */
+  const NAV_ITEMS = [
+    { path: "/", label: "Inicio", icon: <FaHome />, enabled: true },
+    {
+      path: "/cronograma",
+      label: "Cronograma",
+      icon: <FaCalendarAlt />,
+      enabled: false,
+    },
+    { path: "/tabla", label: "Tabla", icon: <FaTable />, enabled: false },
+    { path: "/equipos", label: "Equipos", icon: <FaUsers />, enabled: false },
+    { path: "/galeria", label: "Galería", icon: <FaImages />, enabled: true },
+  ];
+
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
     return () => (document.body.style.overflow = "");
@@ -65,23 +79,13 @@ export default function Layout() {
             <FaBars />
           </button>
 
-          {/* Menu Horizontal */}
+          {/* Menu Horizontal (Solo enabled) */}
           <div className="hidden md:flex gap-2">
-            <LinkItem to="/" icon={<FaHome />}>
-              Inicio
-            </LinkItem>
-            <LinkItem to="/cronograma" icon={<FaCalendarAlt />}>
-              Cronograma
-            </LinkItem>
-            <LinkItem to="/tabla" icon={<FaTable />}>
-              Tabla
-            </LinkItem>
-            <LinkItem to="/equipos" icon={<FaUsers />}>
-              Equipos
-            </LinkItem>
-            <LinkItem to="/galeria" icon={<FaImages />}>
-              Galería
-            </LinkItem>
+            {NAV_ITEMS.filter((i) => i.enabled).map((i) => (
+              <LinkItem key={i.path} to={i.path} icon={i.icon}>
+                {i.label}
+              </LinkItem>
+            ))}
           </div>
         </nav>
       </header>
@@ -126,41 +130,16 @@ export default function Layout() {
               </div>
 
               <nav className="p-2 flex flex-col gap-1">
-                <LinkItem
-                  mobile
-                  to="/"
-                  icon={<FaHome />}
-                  onNavigate={() => setOpen(false)}>
-                  Inicio
-                </LinkItem>
-                <LinkItem
-                  mobile
-                  to="/cronograma"
-                  icon={<FaCalendarAlt />}
-                  onNavigate={() => setOpen(false)}>
-                  Cronograma
-                </LinkItem>
-                <LinkItem
-                  mobile
-                  to="/tabla"
-                  icon={<FaTable />}
-                  onNavigate={() => setOpen(false)}>
-                  Tabla
-                </LinkItem>
-                <LinkItem
-                  mobile
-                  to="/equipos"
-                  icon={<FaUsers />}
-                  onNavigate={() => setOpen(false)}>
-                  Equipos
-                </LinkItem>
-                <LinkItem
-                  mobile
-                  to="/galeria"
-                  icon={<FaImages />}
-                  onNavigate={() => setOpen(false)}>
-                  Galería
-                </LinkItem>
+                {NAV_ITEMS.filter((i) => i.enabled).map((i) => (
+                  <LinkItem
+                    key={i.path}
+                    mobile
+                    to={i.path}
+                    icon={i.icon}
+                    onNavigate={() => setOpen(false)}>
+                    {i.label}
+                  </LinkItem>
+                ))}
               </nav>
             </motion.aside>
           </>
