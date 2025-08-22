@@ -52,14 +52,16 @@ export default function Home() {
             <div className="mt-4 flex flex-wrap gap-2">
               <Link
                 to="/partidos"
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-white/95 text-emerald-700 font-semibold shadow hover:bg-white">
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-white/95 text-emerald-700 font-semibold shadow hover:bg-white"
+                onClick={(e) => e.preventDefault()}>
                 <FaCalendarAlt />
                 Ver cronograma
               </Link>
 
               <Link
                 to="/tabla"
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-emerald-800/60 border border-white/20 hover:bg-emerald-800/80">
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-emerald-800/60 border border-white/20 hover:bg-emerald-800/80"
+                onClick={(e) => e.preventDefault()}>
                 <FaTable />
                 Tabla
               </Link>
@@ -74,7 +76,8 @@ export default function Home() {
           right={
             <Link
               to="/partidos"
-              className="text-sm text-emerald-700 hover:underline">
+              className="text-sm text-emerald-700 hover:underline"
+              onClick={(e) => e.preventDefault()}>
               Ver todo
             </Link>
           }>
