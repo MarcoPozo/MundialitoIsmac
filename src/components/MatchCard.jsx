@@ -1,5 +1,3 @@
-import { FaBolt } from "react-icons/fa";
-
 export default function MatchCard({ match }) {
   const dt = new Date(match.fecha_hora);
   const fecha = dt.toLocaleDateString("es-EC", {
@@ -10,6 +8,7 @@ export default function MatchCard({ match }) {
   const hora = dt.toLocaleTimeString("es-EC", {
     hour: "2-digit",
     minute: "2-digit",
+    hour12: false,
   });
 
   const isFinal = match.estado === "finalizado";
@@ -35,33 +34,30 @@ export default function MatchCard({ match }) {
       </div>
 
       {/* Equipos */}
-      <div className="mt-3 flex items-center gap-2 sm:gap-3">
+      <div className="mt-3 grid grid-cols-[1fr_auto_1fr] items-center gap-3 sm:gap-4">
         <Team
           nombre={match.equipo1?.nombre || "Por definir"}
           escudo={match.equipo1?.escudo}
-          className="basis-0 flex-1 min-w-0"
         />
 
         <div className="shrink-0 w-12 sm:w-16 text-center">
           {isFinal ? (
             <strong className="text-base sm:text-lg tabular-nums text-slate-800">
-              {" "}
               {safeNum(match.equipo1?.goles)} - {safeNum(match.equipo2?.goles)}
             </strong>
           ) : (
-            <FaBolt
-              className={`inline-block text-xl ${
+            <span
+              className={`inline-block text-sm sm:text-base font-bold ${
                 isLive ? "text-red-600 animate-pulse" : "text-emerald-600"
-              }`}
-            />
+              }`}>
+              VS
+            </span>
           )}
         </div>
 
         <Team
-          derecha
           nombre={match.equipo2?.nombre || "Por definir"}
           escudo={match.equipo2?.escudo}
-          className="basis-0 flex-1 min-w-0 justify-end text-right"
         />
       </div>
 
@@ -89,30 +85,28 @@ export default function MatchCard({ match }) {
   );
 }
 
-function Team({ nombre, escudo, derecha = false, className = "" }) {
+function Team({ nombre, escudo }) {
   return (
-    <div
-      className={`flex items-center gap-2 ${
-        derecha ? "flex-row-reverse text-right" : ""
-      } ${className}`}>
+    <div className="flex flex-col items-center justify-center text-center">
       {escudo ? (
         <img
           src={escudo}
           alt={nombre}
-          className="w-8 h-8 sm:w-10 sm:h-10 object-contain shrink-0"
+          className="w-12 h-12 sm:w-14 sm:h-14 object-contain"
         />
       ) : (
         <div
           aria-hidden
-          className="w-8 h-8 sm:w-10 sm:h-10 shrink-0 rounded-full bg-slate-200"
+          className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-slate-200"
         />
       )}
-
-      <span
-        className="text-sm leading-tight sm:text-base sm:leading-snug whitespace-normal break-words sm:truncate"
-        title={nombre}>
+      <span className="mt-1 text-sm sm:text-base leading-snug whitespace-normal break-words">
         {nombre}
       </span>
     </div>
   );
+}
+
+function safeNum(n) {
+  return typeof n === "number" ? n : 0;
 }
