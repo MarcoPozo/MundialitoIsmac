@@ -5,10 +5,10 @@
         "sede": "Cancha 3",
         "jornada": null,
         "fase": "liga",
+        "grupo": null,
         "estado": "programado",
         "categoria": "Libre",
         "genero": "Femenino",
-        "grupo": null,
         "equipo1": {
             "id": "t1",
             "nombre": "Manchester United",
