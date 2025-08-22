@@ -1,0 +1,28 @@
+[
+    
+    {
+        "id": "g1",
+        "src": "/galeria/001.jpg",
+        "alt": "Entrada al torneo mundialito Ismac"
+    },
+    {
+        "id": "g7",
+        "src": "/galeria/007.jpg",
+        "alt": "Entrada al torneo mundialito Ismac"
+    },
+    {
+        "id": "g2",
+        "src": "/galeria/002.jpg",
+        "alt": "Entrada al torneo mundialito Ismac"
+    },
+    {
+        "id": "g9",
+        "src": "/galeria/009.jpg",
+        "alt": "Entrada al torneo mundialito Ismac"
+    },
+    {
+        "id": "g10",
+        "src": "/galeria/010.jpg",
+        "alt": "Entrada al torneo mundialito Ismac"
+    }
+]
