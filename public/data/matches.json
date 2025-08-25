@@ -1,7 +1,7 @@
 [
     {
         "id_partido": "m1",
-        "fecha_hora": "2025-08-23T16:00:00-05:00",
+        "fecha_hora": "2025-08-30T16:00:00-05:00",
         "sede": "Cancha 1",
         "jornada": null,
         "fase": "grupos",
@@ -11,14 +11,14 @@
         "genero": "Masculino",
         "equipo1": {
             "id": "t1",
-            "nombre": "Estudiantes",
-            "escudo": "/escudos/estudiantes.png",
+            "nombre": "Liverpool",
+            "escudo": "/escudos/liverpool.png",
             "goles": null
         },
         "equipo2": {
             "id": "t2",
-            "nombre": "Racing",
-            "escudo": "/escudos/racing.png",
+            "nombre": "Manchester",
+            "escudo": "/escudos/manchesterUnited.png",
             "goles": null
         },
         "arbitro": null,
@@ -27,7 +27,7 @@
     },
     {
         "id_partido": "m2",
-        "fecha_hora": "2025-08-23T16:00:00-05:00",
+        "fecha_hora": "2025-08-30T16:00:00-05:00",
         "sede": "Cancha 2",
         "jornada": null,
         "fase": "grupos",
@@ -37,14 +37,14 @@
         "genero": "Masculino",
         "equipo1": {
             "id": "t3",
-            "nombre": "PSG",
-            "escudo": "/escudos/psg.png",
+            "nombre": "Bayern Munich",
+            "escudo": "/escudos/bayernMunich.png",
             "goles": null
         },
         "equipo2": {
             "id": "t4",
-            "nombre": "Botafogo",
-            "escudo": "/escudos/botafogo.png",
+            "nombre": "Chelsea",
+            "escudo": "/escudos/chelsea.png",
             "goles": null
         },
         "arbitro": null,
@@ -53,7 +53,7 @@
     },
     {
         "id_partido": "m3",
-        "fecha_hora": "2025-08-23T16:00:00-05:00",
+        "fecha_hora": "2025-08-30T16:00:00-05:00",
         "sede": "Cancha 3",
         "jornada": null,
         "fase": "grupos",
@@ -63,14 +63,14 @@
         "genero": "Masculino",
         "equipo1": {
             "id": "t5",
-            "nombre": "Flamengo",
-            "escudo": "/escudos/flamengo.png",
+            "nombre": "AC Milan",
+            "escudo": "/escudos/milan.png",
             "goles": null
         },
         "equipo2": {
             "id": "t6",
-            "nombre": "Inter Milan",
-            "escudo": "/escudos/interMilan.png",
+            "nombre": "Juventus",
+            "escudo": "/escudos/juventus.png",
             "goles": null
         },
         "arbitro": null,
@@ -79,7 +79,7 @@
     },
     {
         "id_partido": "m4",
-        "fecha_hora": "2025-08-23T17:00:00-05:00",
+        "fecha_hora": "2025-08-30T17:00:00-05:00",
         "sede": "Cancha 1",
         "jornada": null,
         "fase": "grupos",
@@ -89,14 +89,14 @@
         "genero": "Masculino",
         "equipo1": {
             "id": "t7",
-            "nombre": "Cosmos",
-            "escudo": "/escudos/cosmos.png",
+            "nombre": "Barcelona",
+            "escudo": "/escudos/barcelona.png",
             "goles": null
         },
         "equipo2": {
             "id": "t8",
-            "nombre": "Ajax",
-            "escudo": "/escudos/ajax.png",
+            "nombre": "Tottenham",
+            "escudo": "/escudos/tottenham.png",
             "goles": null
         },
         "arbitro": null,
@@ -105,7 +105,7 @@
     },
     {
         "id_partido": "m5",
-        "fecha_hora": "2025-08-23T17:00:00-05:00",
+        "fecha_hora": "2025-08-30T17:30:00-05:00",
         "sede": "Cancha 2",
         "jornada": null,
         "fase": "liga",
@@ -115,14 +115,14 @@
         "genero": "Femenino",
         "equipo1": {
             "id": "t9",
-            "nombre": "liverpool",
-            "escudo": "/escudos/liverpool.png",
+            "nombre": "Boca Juniors",
+            "escudo": "/escudos/bocaJuniors.png",
             "goles": null
         },
         "equipo2": {
             "id": "t10",
-            "nombre": "Boca Juniors",
-            "escudo": "/escudos/bocaJuniors.png",
+            "nombre": "Tottenham",
+            "escudo": "/escudos/tottenham.png",
             "goles": null
         },
         "arbitro": null,
@@ -131,7 +131,7 @@
     },
     {
         "id_partido": "m6",
-        "fecha_hora": "2025-08-23T17:00:00-05:00",
+        "fecha_hora": "2025-08-30T17:30:00-05:00",
         "sede": "Cancha 3",
         "jornada": null,
         "fase": "liga",
@@ -141,14 +141,14 @@
         "genero": "Femenino",
         "equipo1": {
             "id": "t11",
-            "nombre": "Tottenham",
-            "escudo": "/escudos/tottenham.png",
+            "nombre": "Manchester",
+            "escudo": "/escudos/manchesterUnited.png",
             "goles": null
         },
         "equipo2": {
             "id": "t12",
-            "nombre": "Manchester",
-            "escudo": "/escudos/manchesterUnited.png",
+            "nombre": "Inter Miami",
+            "escudo": "/escudos/interMiami.png",
             "goles": null
         },
         "arbitro": null,
