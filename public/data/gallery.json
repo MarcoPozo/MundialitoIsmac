@@ -1,28 +1,170 @@
 [
-    
-    {
-        "id": "g1",
-        "src": "/galeria/001.jpg",
-        "alt": "Entrada al torneo mundialito Ismac"
-    },
-    {
-        "id": "g7",
-        "src": "/galeria/007.jpg",
-        "alt": "Entrada al torneo mundialito Ismac"
-    },
-    {
-        "id": "g2",
-        "src": "/galeria/002.jpg",
-        "alt": "Entrada al torneo mundialito Ismac"
-    },
-    {
-        "id": "g9",
-        "src": "/galeria/009.jpg",
-        "alt": "Entrada al torneo mundialito Ismac"
-    },
-    {
-        "id": "g10",
-        "src": "/galeria/010.jpg",
-        "alt": "Entrada al torneo mundialito Ismac"
-    }
+  {
+    "id": "g1",
+    "thumb": "/galeria/thumbs/001.webp",
+    "full": "/galeria/full/001.webp",
+    "alt": "Foto 1",
+    "tags": [],
+    "fecha": null
+  },
+  {
+    "id": "g2",
+    "thumb": "/galeria/thumbs/002.webp",
+    "full": "/galeria/full/002.webp",
+    "alt": "Foto 2",
+    "tags": [],
+    "fecha": null
+  },
+  {
+    "id": "g3",
+    "thumb": "/galeria/thumbs/003.webp",
+    "full": "/galeria/full/003.webp",
+    "alt": "Foto 3",
+    "tags": [],
+    "fecha": null
+  },
+  {
+    "id": "g4",
+    "thumb": "/galeria/thumbs/004.webp",
+    "full": "/galeria/full/004.webp",
+    "alt": "Foto 4",
+    "tags": [],
+    "fecha": null
+  },
+  {
+    "id": "g5",
+    "thumb": "/galeria/thumbs/005.webp",
+    "full": "/galeria/full/005.webp",
+    "alt": "Foto 5",
+    "tags": [],
+    "fecha": null
+  },
+  {
+    "id": "g6",
+    "thumb": "/galeria/thumbs/006.webp",
+    "full": "/galeria/full/006.webp",
+    "alt": "Foto 6",
+    "tags": [],
+    "fecha": null
+  },
+  {
+    "id": "g7",
+    "thumb": "/galeria/thumbs/007.webp",
+    "full": "/galeria/full/007.webp",
+    "alt": "Foto 7",
+    "tags": [],
+    "fecha": null
+  },
+  {
+    "id": "g8",
+    "thumb": "/galeria/thumbs/008.webp",
+    "full": "/galeria/full/008.webp",
+    "alt": "Foto 8",
+    "tags": [],
+    "fecha": null
+  },
+  {
+    "id": "g9",
+    "thumb": "/galeria/thumbs/009.webp",
+    "full": "/galeria/full/009.webp",
+    "alt": "Foto 9",
+    "tags": [],
+    "fecha": null
+  },
+  {
+    "id": "g10",
+    "thumb": "/galeria/thumbs/010.webp",
+    "full": "/galeria/full/010.webp",
+    "alt": "Foto 10",
+    "tags": [],
+    "fecha": null
+  },
+  {
+    "id": "g11",
+    "thumb": "/galeria/thumbs/011.webp",
+    "full": "/galeria/full/011.webp",
+    "alt": "Foto 11",
+    "tags": [],
+    "fecha": null
+  },
+  {
+    "id": "g12",
+    "thumb": "/galeria/thumbs/012.webp",
+    "full": "/galeria/full/012.webp",
+    "alt": "Foto 12",
+    "tags": [],
+    "fecha": null
+  },
+  {
+    "id": "g13",
+    "thumb": "/galeria/thumbs/013.webp",
+    "full": "/galeria/full/013.webp",
+    "alt": "Foto 13",
+    "tags": [],
+    "fecha": null
+  },
+  {
+    "id": "g14",
+    "thumb": "/galeria/thumbs/014.webp",
+    "full": "/galeria/full/014.webp",
+    "alt": "Foto 14",
+    "tags": [],
+    "fecha": null
+  },
+  {
+    "id": "g15",
+    "thumb": "/galeria/thumbs/015.webp",
+    "full": "/galeria/full/015.webp",
+    "alt": "Foto 15",
+    "tags": [],
+    "fecha": null
+  },
+  {
+    "id": "g16",
+    "thumb": "/galeria/thumbs/016.webp",
+    "full": "/galeria/full/016.webp",
+    "alt": "Foto 16",
+    "tags": [],
+    "fecha": null
+  },
+  {
+    "id": "g17",
+    "thumb": "/galeria/thumbs/017.webp",
+    "full": "/galeria/full/017.webp",
+    "alt": "Foto 17",
+    "tags": [],
+    "fecha": null
+  },
+  {
+    "id": "g18",
+    "thumb": "/galeria/thumbs/018.webp",
+    "full": "/galeria/full/018.webp",
+    "alt": "Foto 18",
+    "tags": [],
+    "fecha": null
+  },
+  {
+    "id": "g19",
+    "thumb": "/galeria/thumbs/019.webp",
+    "full": "/galeria/full/019.webp",
+    "alt": "Foto 19",
+    "tags": [],
+    "fecha": null
+  },
+  {
+    "id": "g20",
+    "thumb": "/galeria/thumbs/020.webp",
+    "full": "/galeria/full/020.webp",
+    "alt": "Foto 20",
+    "tags": [],
+    "fecha": null
+  },
+  {
+    "id": "g21",
+    "thumb": "/galeria/thumbs/021.webp",
+    "full": "/galeria/full/021.webp",
+    "alt": "Foto 21",
+    "tags": [],
+    "fecha": null
+  }
 ]
