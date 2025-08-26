@@ -217,7 +217,7 @@ function Thumb({ item, onClick }) {
   return (
     <button
       type="button"
-      className="group relative overflow-hidden rounded-md border border-slate-200 bg-white"
+      className="group relative overflow-hidden rounded-md border border-slate-200 bg-white cursor-pointer"
       onClick={onClick}>
       <img
         src={item.thumb}
