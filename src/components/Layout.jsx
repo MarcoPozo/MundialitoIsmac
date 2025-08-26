@@ -28,7 +28,7 @@ export default function Layout() {
       icon: <FaCalendarAlt />,
       enabled: false,
     },
-    { path: "/tabla", label: "Tabla", icon: <FaTable />, enabled: false },
+    { path: "/tabla", label: "Tabla", icon: <FaTable />, enabled: true },
     { path: "/equipos", label: "Equipos", icon: <FaUsers />, enabled: false },
     { path: "/galeria", label: "Galería", icon: <FaImages />, enabled: true },
   ];

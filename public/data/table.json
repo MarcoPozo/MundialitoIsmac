@@ -1,0 +1,248 @@
+{
+    "actualizado": "Fecha 3",
+    "masculino": {
+        "tipo": "grupos",
+        "grupos": [
+            {
+                "nombre": "Grupo A",
+                "clave": "A",
+                "equipos": [
+                    {
+                        "id": "t1",
+                        "nombre": "Estudiantes",
+                        "escudo": "/escudos/estudiantes.png",
+                        "pj": 2,
+                        "gf": 15,
+                        "ge": 10,
+                        "gd": 5,
+                        "pts": 3
+                    },
+                    {
+                        "id": "t2",
+                        "nombre": "Manchester United",
+                        "escudo": "/escudos/manchesterUnited.png",
+                        "pj": 1,
+                        "gf": 8,
+                        "ge": 3,
+                        "gd": 5,
+                        "pts": 3
+                    },
+                    {
+                        "id": "t3",
+                        "nombre": "Liverpool",
+                        "escudo": "/escudos/liverpool.png",
+                        "pj": 1,
+                        "gf": 9,
+                        "ge": 5,
+                        "gd": 4,
+                        "pts": 3
+                    },
+                    {
+                        "id": "t4",
+                        "nombre": "Racing",
+                        "escudo": "/escudos/racing.png",
+                        "pj": 2,
+                        "gf": 7,
+                        "ge": 21,
+                        "gd": -14,
+                        "pts": 0
+                    }
+                ]
+            },
+            {
+                "nombre": "Grupo B",
+                "clave": "B",
+                "equipos": [
+                    {
+                        "id": "t5",
+                        "nombre": "Botafogo",
+                        "escudo": "/escudos/botafogo.png",
+                        "pj": 2,
+                        "gf": 16,
+                        "ge": 4,
+                        "gd": 12,
+                        "pts": 6
+                    },
+                    {
+                        "id": "t6",
+                        "nombre": "Chelsea",
+                        "escudo": "/escudos/chelsea.png",
+                        "pj": 1,
+                        "gf": 7,
+                        "ge": 4,
+                        "gd": 3,
+                        "pts": 3
+                    },
+                    {
+                        "id": "t7",
+                        "nombre": "Bayern Munich",
+                        "escudo": "/escudos/bayernMunich.png",
+                        "pj": 1,
+                        "gf": 2,
+                        "ge": 6,
+                        "gd": -4,
+                        "pts": 0
+                    },
+                    {
+                        "id": "t8",
+                        "nombre": "PSG",
+                        "escudo": "/escudos/psg.png",
+                        "pj": 2,
+                        "gf": 6,
+                        "ge": 17,
+                        "gd": -11,
+                        "pts": 0
+                    }
+                ]
+            },
+            {
+                "nombre": "Grupo C",
+                "clave": "C",
+                "equipos": [
+                    {
+                        "id": "t9",
+                        "nombre": "Flamengo",
+                        "escudo": "/escudos/flamengo.png",
+                        "pj": 2,
+                        "gf": 5,
+                        "ge": 3,
+                        "gd": 2,
+                        "pts": 6
+                    },
+                    {
+                        "id": "t10",
+                        "nombre": "Inter Milan",
+                        "escudo": "/escudos/interMilan.png",
+                        "pj": 2,
+                        "gf": 5,
+                        "ge": 4,
+                        "gd": 1,
+                        "pts": 3
+                    },
+                    {
+                        "id": "t11",
+                        "nombre": "Juventus",
+                        "escudo": "/escudos/juventus.png",
+                        "pj": 1,
+                        "gf": 1,
+                        "ge": 2,
+                        "gd": -1,
+                        "pts": 0
+                    },
+                    {
+                        "id": "t12",
+                        "nombre": "Ac Milan",
+                        "escudo": "/escudos/milan.png",
+                        "pj": 1,
+                        "gf": 1,
+                        "ge": 3,
+                        "gd": -2,
+                        "pts": 0
+                    }
+                ]
+            },
+            {
+                "nombre": "Grupo D",
+                "clave": "D",
+                "equipos": [
+                    {
+                        "id": "t13",
+                        "nombre": "Cosmos",
+                        "escudo": "/escudos/cosmos.png",
+                        "pj": 2,
+                        "gf": 13,
+                        "ge": 8,
+                        "gd": 5,
+                        "pts": 6
+                    },
+                    {
+                        "id": "t14",
+                        "nombre": "Barcelona",
+                        "escudo": "/escudos/barcelona.png",
+                        "pj": 1,
+                        "gf": 8,
+                        "ge": 2,
+                        "gd": 6,
+                        "pts": 3
+                    },
+                    {
+                        "id": "t15",
+                        "nombre": "Tottenham",
+                        "escudo": "/escudos/tottenham.png",
+                        "pj": 1,
+                        "gf": 3,
+                        "ge": 4,
+                        "gd": -1,
+                        "pts": 0
+                    },
+                    {
+                        "id": "t16",
+                        "nombre": "Ajax",
+                        "escudo": "/escudos/ajax.png",
+                        "pj": 2,
+                        "gf": 7,
+                        "ge": 17,
+                        "gd": -10,
+                        "pts": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "femenino": {
+        "tipo": "liga",
+        "titulo": "Grupo Femenino",
+        "equipos": [
+            {
+                "id": "f1",
+                "nombre": "Inter Miami",
+                "escudo": "/escudos/interMiami.png",
+                "pj": 2,
+                "gf": 6,
+                "ge": 1,
+                "gd": 5,
+                "pts": 6
+            },
+            {
+                "id": "f2",
+                "nombre": "Boca Juniors",
+                "escudo": "/escudos/bocaJuniors.png",
+                "pj": 3,
+                "gf": 6,
+                "ge": 6,
+                "gd": 0,
+                "pts": 6
+            },
+            {
+                "id": "f3",
+                "nombre": "Manchester United",
+                "escudo": "/escudos/manchesterUnited.png",
+                "pj": 2,
+                "gf": 5,
+                "ge": 3,
+                "gd": 2,
+                "pts": 3
+            },
+            {
+                "id": "f4",
+                "nombre": "Totthenham",
+                "escudo": "/escudos/tottenham.png",
+                "pj": 2,
+                "gf": 8,
+                "ge": 9,
+                "gd": -1,
+                "pts": 3
+            },
+            {
+                "id": "f5",
+                "nombre": "Liverpool",
+                "escudo": "/escudos/liverpool.png",
+                "pj": 3,
+                "gf": 7,
+                "ge": 13,
+                "gd": -6,
+                "pts": 0
+            }
+        ]
+    }
+}
