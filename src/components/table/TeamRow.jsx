@@ -2,39 +2,40 @@ export default function TeamRow({ idx, team, compacto = false }) {
   const pos = idx + 1;
 
   return (
-    <div className="px-3 sm:px-4 py-2 sm:py-2.5 flex items-center gap-2 sm:gap-3">
+    <div className="grid grid-cols-[2rem_minmax(0,1fr)_repeat(5,2.75rem)] items-center px-3 sm:px-4 py-2 sm:py-2.5">
       {/* Posición */}
-      <div className="w-6 text-center text-xs font-bold text-slate-500">
-        {pos}
-      </div>
+      <div className="text-center text-xs font-bold text-slate-500">{pos}</div>
 
-      {/* Escudo y nombre */}
-      <div className="flex items-center gap-2 min-w-0 flex-1">
+      {/* Equipo */}
+      <div className="flex items-center gap-2 min-w-0">
         {team.escudo ? (
           <img
             src={team.escudo}
             alt={team.nombre}
-            className="w-6 h-6 sm:w-7 sm:h-7 object-contain"
+            className="w-7 h-7 sm:w-8 sm:h-8 object-contain shrink-0"
           />
         ) : (
-          <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-full bg-slate-200" />
+          <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-slate-200 shrink-0" />
         )}
         <div className="truncate font-medium">{team.nombre}</div>
       </div>
 
       {/* Stats */}
-      <div
-        className={`grid grid-cols-5 items-center gap-2 text-xs sm:text-sm text-slate-700 ${
-          compacto ? "w-[220px]" : "w-[260px]"
-        }`}>
-        <span className="text-center tabular-nums">{team.pj}</span>
-        <span className="text-center tabular-nums">{team.gf}</span>
-        <span className="text-center tabular-nums">{team.ge}</span>
-        <span className="text-center tabular-nums">{team.gd}</span>
-        <strong className="text-center tabular-nums text-emerald-700">
-          {team.pts}
-        </strong>
-      </div>
+      <span className="text-center tabular-nums text-xs sm:text-sm">
+        {team.pj}
+      </span>
+      <span className="text-center tabular-nums text-xs sm:text-sm">
+        {team.gf}
+      </span>
+      <span className="text-center tabular-nums text-xs sm:text-sm">
+        {team.ge}
+      </span>
+      <span className="text-center tabular-nums text-xs sm:text-sm">
+        {team.gd}
+      </span>
+      <strong className="text-center tabular-nums text-xs sm:text-sm text-emerald-700">
+        {team.pts}
+      </strong>
     </div>
   );
 }
