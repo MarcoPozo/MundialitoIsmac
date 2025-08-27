@@ -60,8 +60,7 @@ export default function Home() {
 
               <Link
                 to="/tabla"
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-emerald-800/60 border border-white/20 hover:bg-emerald-800/80"
-                onClick={(e) => e.preventDefault()}>
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-emerald-800/60 border border-white/20 hover:bg-emerald-800/80">
                 <FaTable />
                 Tabla
               </Link>

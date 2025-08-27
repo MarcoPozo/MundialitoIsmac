@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import PageTransition from "./PageTransition";
+import { Link } from "react-router-dom";
 
 import {
   FaHome,
@@ -59,14 +60,14 @@ export default function Layout() {
       {/* Navbar */}
       <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
         <nav className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
-          <div className="flex items-center gap-3 min-w-0">
+          <Link to={"/"} className="flex items-center gap-3 min-w-0">
             <img
               src={logoCamaleon}
               alt="Logo camaleon"
               className="size-8 shrink-0"
             />
             <h2 className="font-bold truncate">Mundialito Ismac</h2>
-          </div>
+          </Link>
 
           {/* Menu Hamburguesa */}
           <button
