@@ -29,7 +29,7 @@ export default function Table() {
   }, []);
 
   return (
-    <section className="mx-auto max-w-6xl px-4">
+    <section className="mx-auto max-w-6xl sm:px-4">
       <header className="mb-4 flex items-center gap-3">
         <FaTable className="text-2xl text-emerald-600" />
         <h1 className="text-xl sm:text-2xl font-bold">Tabla de posiciones</h1>

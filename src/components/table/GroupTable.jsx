@@ -12,38 +12,52 @@ export default function GroupTable({ titulo, equipos = [], compacto = false }) {
         <h3 className="font-semibold">{titulo}</h3>
       </div>
 
-      {/* Tabla con scroll en pantallas pequeñas */}
-      <div className="overflow-x-auto">
-        <div className="min-w-[360px]">
-          {/* Encabezado */}
-          <div className="grid grid-cols-[2rem_minmax(0,1fr)_repeat(5,2.75rem)] px-3 sm:px-4 py-2 text-[11px] sm:text-xs font-semibold text-slate-500">
-            <div className="text-center">#</div>
-            <div>Equipo</div>
-            <div className="text-center">PJ</div>
-            <div className="text-center">GF</div>
-            <div className="text-center">GE</div>
-            <div className="text-center">GD</div>
-            <div className="text-center">PTS</div>
-          </div>
+      {/* Encabezados */}
+      <div
+        className="
+        grid
+        grid-cols-[2.25rem_2.5rem_repeat(5,minmax(2.2rem,1fr))]
+        px-2 py-2
+        text-[11px] font-semibold text-slate-500
+        sm:hidden
+        w-full
+      ">
+        <div className="text-center">Esc.</div>
+        <div className="text-center">Sig.</div>
+        <div className="text-center">PJ</div>
+        <div className="text-center">GF</div>
+        <div className="text-center">GE</div>
+        <div className="text-center">GD</div>
+        <div className="text-center">PTS</div>
+      </div>
 
-          {/* Filas */}
-          <div className="divide-y divide-slate-200">
-            {rows.map((t, idx) => (
-              <TeamRow
-                key={t.id || idx}
-                idx={idx}
-                team={t}
-                compacto={compacto}
-              />
-            ))}
+      <div
+        className="
+        hidden sm:grid
+        sm:grid-cols-[2rem_minmax(0,1fr)_repeat(5,2.75rem)]
+        sm:px-4 sm:py-2 sm:text-xs sm:font-semibold sm:text-slate-500
+        w-full
+      ">
+        <div className="text-center">#</div>
+        <div>Equipo</div>
+        <div className="text-center">PJ</div>
+        <div className="text-center">GF</div>
+        <div className="text-center">GE</div>
+        <div className="text-center">GD</div>
+        <div className="text-center">PTS</div>
+      </div>
 
-            {rows.length === 0 && (
-              <div className="p-4 text-sm text-slate-500">
-                Sin equipos registrados.
-              </div>
-            )}
+      {/* Filas */}
+      <div className="divide-y divide-slate-200 w-full overflow-hidden">
+        {rows.map((t, idx) => (
+          <TeamRow key={t.id || idx} idx={idx} team={t} compacto={compacto} />
+        ))}
+
+        {rows.length === 0 && (
+          <div className="p-4 text-sm text-slate-500">
+            Sin equipos registrados.
           </div>
-        </div>
+        )}
       </div>
     </div>
   );
