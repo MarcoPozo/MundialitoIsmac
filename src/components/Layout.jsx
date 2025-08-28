@@ -30,7 +30,7 @@ export default function Layout() {
       enabled: false,
     },
     { path: "/tabla", label: "Tabla", icon: <FaTable />, enabled: true },
-    { path: "/equipos", label: "Equipos", icon: <FaUsers />, enabled: false },
+    { path: "/equipos", label: "Equipos", icon: <FaUsers />, enabled: true },
     { path: "/galeria", label: "Galería", icon: <FaImages />, enabled: true },
   ];
 

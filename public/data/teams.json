@@ -1,0 +1,191 @@
+[
+    {
+        "id": "t1",
+        "nombre": "Estudiantes",
+        "siglas": "EST",
+        "genero": "Masculino",
+        "categoria": "Libre",
+        "grupo": "A",
+        "escudo": "/escudos/estudiantes.png"
+    },
+    {
+        "id": "t2",
+        "nombre": "Manchester United",
+        "siglas": "MU",
+        "genero": "Masculino",
+        "categoria": "Libre",
+        "grupo": "A",
+        "escudo": "/escudos/manchesterUnited.png"
+    },
+    {
+        "id": "t3",
+        "nombre": "Liverpool",
+        "siglas": "LIV",
+        "genero": "Masculino",
+        "categoria": "Libre",
+        "grupo": "A",
+        "escudo": "/escudos/liverpool.png"
+    },
+    {
+        "id": "t4",
+        "nombre": "Racing",
+        "siglas": "RC",
+        "genero": "Masculino",
+        "categoria": "Libre",
+        "grupo": "A",
+        "escudo": "/escudos/racing.png"
+    },
+    {
+        "id": "t5",
+        "nombre": "Botafogo",
+        "siglas": "BOT",
+        "genero": "Masculino",
+        "categoria": "Libre",
+        "grupo": "B",
+        "escudo": "/escudos/botafogo.png"
+    },
+    {
+        "id": "t6",
+        "nombre": "Chelsea",
+        "siglas": "CHE",
+        "genero": "Masculino",
+        "categoria": "Libre",
+        "grupo": "B",
+        "escudo": "/escudos/chelsea.png"
+    },
+    {
+        "id": "t7",
+        "nombre": "Bayern Munich",
+        "siglas": "BYM",
+        "genero": "Masculino",
+        "categoria": "Libre",
+        "grupo": "B",
+        "escudo": "/escudos/bayernMunich.png"
+    },
+    {
+        "id": "t8",
+        "nombre": "PSG",
+        "siglas": "PSG",
+        "genero": "Masculino",
+        "categoria": "Libre",
+        "grupo": "B",
+        "escudo": "/escudos/psg.png"
+    },
+    {
+        "id": "t9",
+        "nombre": "Flamengo",
+        "siglas": "FLM",
+        "genero": "Masculino",
+        "categoria": "Libre",
+        "grupo": "C",
+        "escudo": "/escudos/flamengo.png"
+    },
+    {
+        "id": "t10",
+        "nombre": "Inter Milan",
+        "siglas": "IM",
+        "genero": "Masculino",
+        "categoria": "Libre",
+        "grupo": "C",
+        "escudo": "/escudos/interMilan.png"
+    },
+    {
+        "id": "t11",
+        "nombre": "Juventus",
+        "siglas": "JUV",
+        "genero": "Masculino",
+        "categoria": "Libre",
+        "grupo": "C",
+        "escudo": "/escudos/juventus.png"
+    },
+    {
+        "id": "t12",
+        "nombre": "Ac Milan",
+        "siglas": "ACM",
+        "genero": "Masculino",
+        "categoria": "Libre",
+        "grupo": "C",
+        "escudo": "/escudos/milan.png"
+    },
+    {
+        "id": "t13",
+        "nombre": "Cosmos",
+        "siglas": "COS",
+        "genero": "Masculino",
+        "categoria": "Libre",
+        "grupo": "D",
+        "escudo": "/escudos/cosmos.png"
+    },
+    {
+        "id": "t14",
+        "nombre": "Barcelona",
+        "siglas": "BCN",
+        "genero": "Masculino",
+        "categoria": "Libre",
+        "grupo": "D",
+        "escudo": "/escudos/barcelona.png"
+    },
+    {
+        "id": "t15",
+        "nombre": "Tottenham",
+        "siglas": "TOT",
+        "genero": "Masculino",
+        "categoria": "Libre",
+        "grupo": "D",
+        "escudo": "/escudos/tottenham.png"
+    },
+    {
+        "id": "t16",
+        "nombre": "Ajax",
+        "siglas": "AJX",
+        "genero": "Masculino",
+        "categoria": "Libre",
+        "grupo": "D",
+        "escudo": "/escudos/ajax.png"
+    },
+    {
+        "id": "f1",
+        "nombre": "Inter Miami",
+        "siglas": "IMM",
+        "genero": "Femenino",
+        "categoria": "Libre",
+        "grupo": null,
+        "escudo": "/escudos/interMiami.png"
+    },
+    {
+        "id": "f2",
+        "nombre": "Boca Juniors",
+        "siglas": "BJ",
+        "genero": "Femenino",
+        "categoria": "Libre",
+        "grupo": null,
+        "escudo": "/escudos/bocaJuniors.png"
+    },
+    {
+        "id": "f3",
+        "nombre": "Manchester United",
+        "siglas": "MU",
+        "genero": "Femenino",
+        "categoria": "Libre",
+        "grupo": null,
+        "escudo": "/escudos/manchesterUnited.png"
+    },
+    {
+        "id": "f4",
+        "nombre": "Totthenham",
+        "siglas": "TOT",
+        "genero": "Femenino",
+        "categoria": "Libre",
+        "grupo": null,
+        "escudo": "/escudos/tottenham.png"
+    },
+    {
+        "id": "f5",
+        "nombre": "Liverpool",
+        "siglas": "LIV",
+        "genero": "Femenino",
+        "categoria": "Libre",
+        "grupo": null,
+        "escudo": "/escudos/liverpool.png"
+    }
+]

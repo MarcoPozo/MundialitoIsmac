@@ -3,6 +3,7 @@ import Layout from "./components/Layout";
 import Home from "./views/Home";
 import Gallery from "./views/Gallery";
 import Table from "./views/Table";
+import Teams from "./views/Teams";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
         <Route index element={<Home />} />
         <Route path="galeria" element={<Gallery />} />
         <Route path="tabla" element={<Table />} />
+        <Route path="equipos" element={<Teams />} />
       </Route>
     </Routes>
   );
