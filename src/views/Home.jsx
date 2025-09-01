@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import MatchCard from "../components/MatchCard";
 import SectionTitle from "../components/SectionTitle";
-import { FaImages, FaTable } from "react-icons/fa";
+import { FaCalendarAlt, FaTable } from "react-icons/fa";
 
 export default function Home() {
   const [upcoming, setUpcoming] = useState([]);
@@ -51,10 +51,10 @@ export default function Home() {
 
             <div className="mt-4 flex flex-wrap gap-2">
               <Link
-                to="/galeria"
+                to="/cronograma"
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-white/95 text-emerald-700 font-semibold shadow hover:bg-white">
-                <FaImages />
-                Ver Galería
+                <FaCalendarAlt />
+                Ver Cronograma
               </Link>
 
               <Link
