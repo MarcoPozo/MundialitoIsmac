@@ -1,22 +1,509 @@
 [
     {
         "id_partido": "m1",
+        "fecha": 1,
+        "fecha_hora": "2025-08-09T16:30:00-05:00",
+        "sede": "Cancha 1",
+        "jornada": null,
+        "fase": "grupos",
+        "grupo": "A",
+        "estado": "finalizado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "equipo1": {
+            "id": "t1",
+            "nombre": "Racing",
+            "escudo": "/escudos/racing.png",
+            "goles": 5
+        },
+        "equipo2": {
+            "id": "t2",
+            "nombre": "Liverpool",
+            "escudo": "/escudos/liverpool.png",
+            "goles": 9
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m2",
+        "fecha": 1,
+        "fecha_hora": "2025-08-09T16:30:00-05:00",
+        "sede": "Cancha 2",
+        "jornada": null,
+        "fase": "grupos",
+        "grupo": "B",
+        "estado": "finalizado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "equipo1": {
+            "id": "t3",
+            "nombre": "Botafogo",
+            "escudo": "/escudos/botafogo.png",
+            "goles": 6
+        },
+        "equipo2": {
+            "id": "t4",
+            "nombre": "Bayern Munich",
+            "escudo": "/escudos/bayernMunich.png",
+            "goles": 2
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m3",
+        "fecha": 1,
+        "fecha_hora": "2025-08-09T16:30:00-05:00",
+        "sede": "Cancha 3",
+        "jornada": null,
+        "fase": "grupos",
+        "grupo": "C",
+        "estado": "finalizado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "equipo1": {
+            "id": "t5",
+            "nombre": "Inter Milan",
+            "escudo": "/escudos/interMilan.png",
+            "goles": 3
+        },
+        "equipo2": {
+            "id": "t6",
+            "nombre": "AC Milan",
+            "escudo": "/escudos/milan.png",
+            "goles": 1
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m4",
+        "fecha": 1,
+        "fecha_hora": "2025-08-09T17:30:00-05:00",
+        "sede": "Cancha 1",
+        "jornada": null,
+        "fase": "grupos",
+        "grupo": "D",
+        "estado": "finalizado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "equipo1": {
+            "id": "t7",
+            "nombre": "Ajax",
+            "escudo": "/escudos/ajax.png",
+            "goles": 2
+        },
+        "equipo2": {
+            "id": "t8",
+            "nombre": "Barcelona",
+            "escudo": "/escudos/barcelona.png",
+            "goles": 8
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m5",
+        "fecha": 1,
+        "fecha_hora": "2025-08-09T17:30:00-05:00",
+        "sede": "Cancha 2",
+        "jornada": null,
+        "fase": "liga",
+        "grupo": null,
+        "estado": "finalizado",
+        "categoria": "Libre",
+        "genero": "Femenino",
+        "equipo1": {
+            "id": "t9",
+            "nombre": "Inter Miami",
+            "escudo": "/escudos/interMiami.png",
+            "goles": 3
+        },
+        "equipo2": {
+            "id": "t10",
+            "nombre": "Boca Juniors",
+            "escudo": "/escudos/bocaJuniors.png",
+            "goles": 1
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m6",
+        "fecha": 1,
+        "fecha_hora": "2025-08-09T17:30:00-05:00",
+        "sede": "Cancha 3",
+        "jornada": null,
+        "fase": "liga",
+        "grupo": null,
+        "estado": "finalizado",
+        "categoria": "Libre",
+        "genero": "Femenino",
+        "equipo1": {
+            "id": "t11",
+            "nombre": "Tottenham",
+            "escudo": "/escudos/tottenham.png",
+            "goles": 6
+        },
+        "equipo2": {
+            "id": "t12",
+            "nombre": "Liverpool",
+            "escudo": "/escudos/liverpool.png",
+            "goles": 4
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m7",
+        "fecha": 2,
+        "fecha_hora": "2025-08-16T16:00:00-05:00",
+        "sede": "Cancha 1",
+        "jornada": null,
+        "fase": "grupos",
+        "grupo": "A",
+        "estado": "finalizado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "equipo1": {
+            "id": "t13",
+            "nombre": "Estudiantes",
+            "escudo": "/escudos/estudiantes.png",
+            "goles": 3
+        },
+        "equipo2": {
+            "id": "t14",
+            "nombre": "Manchester",
+            "escudo": "/escudos/manchesterUnited.png",
+            "goles": 8
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m8",
+        "fecha": 2,
+        "fecha_hora": "2025-08-16T16:00:00-05:00",
+        "sede": "Cancha 2",
+        "jornada": null,
+        "fase": "grupos",
+        "grupo": "B",
+        "estado": "finalizado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "equipo1": {
+            "id": "t15",
+            "nombre": "PSG",
+            "escudo": "/escudos/psg.png",
+            "goles": 4
+        },
+        "equipo2": {
+            "id": "t16",
+            "nombre": "Chelsea",
+            "escudo": "/escudos/chelsea.png",
+            "goles": 7
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m9",
+        "fecha": 2,
+        "fecha_hora": "2025-08-16T16:00:00-05:00",
+        "sede": "Cancha 3",
+        "jornada": null,
+        "fase": "grupos",
+        "grupo": "C",
+        "estado": "finalizado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "equipo1": {
+            "id": "t17",
+            "nombre": "Flamengo",
+            "escudo": "/escudos/flamengo.png",
+            "goles": 2
+        },
+        "equipo2": {
+            "id": "t18",
+            "nombre": "Juventus",
+            "escudo": "/escudos/juventus.png",
+            "goles": 1
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m10",
+        "fecha": 2,
+        "fecha_hora": "2025-08-16T17:00:00-05:00",
+        "sede": "Cancha 1",
+        "jornada": null,
+        "fase": "grupos",
+        "grupo": "D",
+        "estado": "finalizado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "equipo1": {
+            "id": "t19",
+            "nombre": "Cosmos",
+            "escudo": "/escudos/cosmos.png",
+            "goles": 4
+        },
+        "equipo2": {
+            "id": "t20",
+            "nombre": "Tottenham",
+            "escudo": "/escudos/tottenham.png",
+            "goles": 3
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m11",
+        "fecha": 2,
+        "fecha_hora": "2025-08-16T17:00:00-05:00",
+        "sede": "Cancha 2",
+        "jornada": null,
+        "fase": "liga",
+        "grupo": null,
+        "estado": "finalizado",
+        "categoria": "Libre",
+        "genero": "Femenino",
+        "equipo1": {
+            "id": "t21",
+            "nombre": "Boca Juniors",
+            "escudo": "/escudos/bocaJuniors.png",
+            "goles": 1
+        },
+        "equipo2": {
+            "id": "t22",
+            "nombre": "Manchester",
+            "escudo": "/escudos/manchesterUnited.png",
+            "goles": 0
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m12",
+        "fecha": 2,
+        "fecha_hora": "2025-08-16T17:00:00-05:00",
+        "sede": "Cancha 3",
+        "jornada": null,
+        "fase": "liga",
+        "grupo": null,
+        "estado": "finalizado",
+        "categoria": "Libre",
+        "genero": "Femenino",
+        "equipo1": {
+            "id": "t23",
+            "nombre": "Liverpool",
+            "escudo": "/escudos/liverpool.png",
+            "goles": 0
+        },
+        "equipo2": {
+            "id": "t24",
+            "nombre": "Manchester",
+            "escudo": "/escudos/interMiami.png",
+            "goles": 3
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": "Equipo Liverpool no se presento"
+    },
+    {
+        "id_partido": "m13",
+        "fecha": 3,
+        "fecha_hora": "2025-08-23T16:00:00-05:00",
+        "sede": "Cancha 1",
+        "jornada": null,
+        "fase": "grupos",
+        "grupo": "A",
+        "estado": "finalizado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "equipo1": {
+            "id": "t25",
+            "nombre": "Estudiantes",
+            "escudo": "/escudos/estudiantes.png",
+            "goles": 12
+        },
+        "equipo2": {
+            "id": "t26",
+            "nombre": "Racing",
+            "escudo": "/escudos/racing.png",
+            "goles": 2
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m14",
+        "fecha": 3,
+        "fecha_hora": "2025-08-23T16:00:00-05:00",
+        "sede": "Cancha 2",
+        "jornada": null,
+        "fase": "grupos",
+        "grupo": "B",
+        "estado": "finalizado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "equipo1": {
+            "id": "t27",
+            "nombre": "PSG",
+            "escudo": "/escudos/psg.png",
+            "goles": 2
+        },
+        "equipo2": {
+            "id": "t28",
+            "nombre": "Botafogo",
+            "escudo": "/escudos/botafogo.png",
+            "goles": 10
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m15",
+        "fecha": 3,
+        "fecha_hora": "2025-08-23T16:00:00-05:00",
+        "sede": "Cancha 3",
+        "jornada": null,
+        "fase": "grupos",
+        "grupo": "C",
+        "estado": "finalizado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "equipo1": {
+            "id": "t29",
+            "nombre": "Flamengo",
+            "escudo": "/escudos/flamengo.png",
+            "goles": 3
+        },
+        "equipo2": {
+            "id": "t30",
+            "nombre": "Inter Milan",
+            "escudo": "/escudos/interMilan.png",
+            "goles": 2
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m16",
+        "fecha": 3,
+        "fecha_hora": "2025-08-23T17:00:00-05:00",
+        "sede": "Cancha 1",
+        "jornada": null,
+        "fase": "grupos",
+        "grupo": "D",
+        "estado": "finalizado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "equipo1": {
+            "id": "t31",
+            "nombre": "Cosmos",
+            "escudo": "/escudos/cosmos.png",
+            "goles": 9
+        },
+        "equipo2": {
+            "id": "t32",
+            "nombre": "Ajax",
+            "escudo": "/escudos/ajax.png",
+            "goles": 5
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m17",
+        "fecha": 3,
+        "fecha_hora": "2025-08-23T17:00:00-05:00",
+        "sede": "Cancha 2",
+        "jornada": null,
+        "fase": "liga",
+        "grupo": null,
+        "estado": "finalizado",
+        "categoria": "Libre",
+        "genero": "Femenino",
+        "equipo1": {
+            "id": "t33",
+            "nombre": "Liverpool",
+            "escudo": "/escudos/liverpool.png",
+            "goles": 3
+        },
+        "equipo2": {
+            "id": "t34",
+            "nombre": "Boca Juniors",
+            "escudo": "/escudos/bocaJuniors.png",
+            "goles": 4
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m18",
+        "fecha": 3,
+        "fecha_hora": "2025-08-23T17:00:00-05:00",
+        "sede": "Cancha 3",
+        "jornada": null,
+        "fase": "liga",
+        "grupo": null,
+        "estado": "finalizado",
+        "categoria": "Libre",
+        "genero": "Femenino",
+        "equipo1": {
+            "id": "t35",
+            "nombre": "Tottenham",
+            "escudo": "/escudos/tottenham.png",
+            "goles": 2
+        },
+        "equipo2": {
+            "id": "t36",
+            "nombre": "Manchester",
+            "escudo": "/escudos/manchesterUnited.png",
+            "goles": 5
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m19",
+        "fecha": 4,
         "fecha_hora": "2025-08-30T16:00:00-05:00",
         "sede": "Cancha 1",
         "jornada": null,
         "fase": "grupos",
         "grupo": "A",
-        "estado": "programado",
+        "estado": "finalizado",
         "categoria": "Libre",
         "genero": "Masculino",
         "equipo1": {
-            "id": "t1",
+            "id": "t37",
             "nombre": "Liverpool",
             "escudo": "/escudos/liverpool.png",
             "goles": null
         },
         "equipo2": {
-            "id": "t2",
+            "id": "t38",
             "nombre": "Manchester",
             "escudo": "/escudos/manchesterUnited.png",
             "goles": null
@@ -26,23 +513,24 @@
         "observaciones": null
     },
     {
-        "id_partido": "m2",
+        "id_partido": "m20",
+        "fecha": 4,
         "fecha_hora": "2025-08-30T16:00:00-05:00",
         "sede": "Cancha 2",
         "jornada": null,
         "fase": "grupos",
         "grupo": "B",
-        "estado": "programado",
+        "estado": "finalizado",
         "categoria": "Libre",
         "genero": "Masculino",
         "equipo1": {
-            "id": "t3",
+            "id": "t39",
             "nombre": "Bayern Munich",
             "escudo": "/escudos/bayernMunich.png",
             "goles": null
         },
         "equipo2": {
-            "id": "t4",
+            "id": "t40",
             "nombre": "Chelsea",
             "escudo": "/escudos/chelsea.png",
             "goles": null
@@ -52,23 +540,24 @@
         "observaciones": null
     },
     {
-        "id_partido": "m3",
+        "id_partido": "m21",
+        "fecha": 4,
         "fecha_hora": "2025-08-30T16:00:00-05:00",
         "sede": "Cancha 3",
         "jornada": null,
         "fase": "grupos",
         "grupo": "C",
-        "estado": "programado",
+        "estado": "finalizado",
         "categoria": "Libre",
         "genero": "Masculino",
         "equipo1": {
-            "id": "t5",
+            "id": "t41",
             "nombre": "AC Milan",
             "escudo": "/escudos/milan.png",
             "goles": null
         },
         "equipo2": {
-            "id": "t6",
+            "id": "t42",
             "nombre": "Juventus",
             "escudo": "/escudos/juventus.png",
             "goles": null
@@ -78,8 +567,171 @@
         "observaciones": null
     },
     {
-        "id_partido": "m4",
+        "id_partido": "m22",
+        "fecha": 4,
         "fecha_hora": "2025-08-30T17:00:00-05:00",
+        "sede": "Cancha 1",
+        "jornada": null,
+        "fase": "grupos",
+        "grupo": "D",
+        "estado": "finalizado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "equipo1": {
+            "id": "t43",
+            "nombre": "Barcelona",
+            "escudo": "/escudos/barcelona.png",
+            "goles": null
+        },
+        "equipo2": {
+            "id": "t44",
+            "nombre": "Tottenham",
+            "escudo": "/escudos/tottenham.png",
+            "goles": null
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m23",
+        "fecha": 4,
+        "fecha_hora": "2025-08-30T17:30:00-05:00",
+        "sede": "Cancha 2",
+        "jornada": null,
+        "fase": "liga",
+        "grupo": null,
+        "estado": "finalizado",
+        "categoria": "Libre",
+        "genero": "Femenino",
+        "equipo1": {
+            "id": "t45",
+            "nombre": "Boca Juniors",
+            "escudo": "/escudos/bocaJuniors.png",
+            "goles": null
+        },
+        "equipo2": {
+            "id": "t46",
+            "nombre": "Tottenham",
+            "escudo": "/escudos/tottenham.png",
+            "goles": null
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m24",
+        "fecha": 4,
+        "fecha_hora": "2025-08-30T17:30:00-05:00",
+        "sede": "Cancha 3",
+        "jornada": null,
+        "fase": "liga",
+        "grupo": null,
+        "estado": "finalizado",
+        "categoria": "Libre",
+        "genero": "Femenino",
+        "equipo1": {
+            "id": "t47",
+            "nombre": "Manchester",
+            "escudo": "/escudos/manchesterUnited.png",
+            "goles": null
+        },
+        "equipo2": {
+            "id": "t48",
+            "nombre": "Inter Miami",
+            "escudo": "/escudos/interMiami.png",
+            "goles": null
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m25",
+        "fecha": 5,
+        "fecha_hora": "2025-09-06T16:00:00-05:00",
+        "sede": "Cancha 1",
+        "jornada": null,
+        "fase": "grupos",
+        "grupo": "A",
+        "estado": "programado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "equipo1": {
+            "id": "t49",
+            "nombre": "Manchester",
+            "escudo": "/escudos/manchesterUnited.png",
+            "goles": null
+        },
+        "equipo2": {
+            "id": "t50",
+            "nombre": "Racing",
+            "escudo": "/escudos/racing.png",
+            "goles": null
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m26",
+        "fecha": 5,
+        "fecha_hora": "2025-09-06T16:00:00-05:00",
+        "sede": "Cancha 2",
+        "jornada": null,
+        "fase": "grupos",
+        "grupo": "B",
+        "estado": "programado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "equipo1": {
+            "id": "t51",
+            "nombre": "Chelsea",
+            "escudo": "/escudos/chelsea.png",
+            "goles": null
+        },
+        "equipo2": {
+            "id": "t52",
+            "nombre": "Botafogo",
+            "escudo": "/escudos/botafogo.png",
+            "goles": null
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m27",
+        "fecha": 5,
+        "fecha_hora": "2025-09-06T16:00:00-05:00",
+        "sede": "Cancha 3",
+        "jornada": null,
+        "fase": "grupos",
+        "grupo": "C",
+        "estado": "programado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "equipo1": {
+            "id": "t53",
+            "nombre": "Juventus",
+            "escudo": "/escudos/juventus.png",
+            "goles": null
+        },
+        "equipo2": {
+            "id": "t54",
+            "nombre": "Inter Milan",
+            "escudo": "/escudos/interMilan.png",
+            "goles": null
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m28",
+        "fecha": 5,
+        "fecha_hora": "2025-09-06T17:00:00-05:00",
         "sede": "Cancha 1",
         "jornada": null,
         "fase": "grupos",
@@ -88,15 +740,15 @@
         "categoria": "Libre",
         "genero": "Masculino",
         "equipo1": {
-            "id": "t7",
-            "nombre": "Barcelona",
-            "escudo": "/escudos/barcelona.png",
+            "id": "t55",
+            "nombre": "Tottenham",
+            "escudo": "/escudos/tottenham.png",
             "goles": null
         },
         "equipo2": {
-            "id": "t8",
-            "nombre": "Tottenham",
-            "escudo": "/escudos/tottenham.png",
+            "id": "t56",
+            "nombre": "Ajax",
+            "escudo": "/escudos/ajax.png",
             "goles": null
         },
         "arbitro": null,
@@ -104,8 +756,9 @@
         "observaciones": null
     },
     {
-        "id_partido": "m5",
-        "fecha_hora": "2025-08-30T17:30:00-05:00",
+        "id_partido": "m29",
+        "fecha": 5,
+        "fecha_hora": "2025-09-06T17:00:00-05:00",
         "sede": "Cancha 2",
         "jornada": null,
         "fase": "liga",
@@ -114,15 +767,15 @@
         "categoria": "Libre",
         "genero": "Femenino",
         "equipo1": {
-            "id": "t9",
-            "nombre": "Boca Juniors",
-            "escudo": "/escudos/bocaJuniors.png",
+            "id": "t57",
+            "nombre": "Manchester",
+            "escudo": "/escudos/manchesterUnited.png",
             "goles": null
         },
         "equipo2": {
-            "id": "t10",
-            "nombre": "Tottenham",
-            "escudo": "/escudos/tottenham.png",
+            "id": "t58",
+            "nombre": "Liverpool",
+            "escudo": "/escudos/liverpool.png",
             "goles": null
         },
         "arbitro": null,
@@ -130,8 +783,9 @@
         "observaciones": null
     },
     {
-        "id_partido": "m6",
-        "fecha_hora": "2025-08-30T17:30:00-05:00",
+        "id_partido": "m30",
+        "fecha": 5,
+        "fecha_hora": "2025-09-06T17:00:00-05:00",
         "sede": "Cancha 3",
         "jornada": null,
         "fase": "liga",
@@ -140,15 +794,15 @@
         "categoria": "Libre",
         "genero": "Femenino",
         "equipo1": {
-            "id": "t11",
-            "nombre": "Manchester",
-            "escudo": "/escudos/manchesterUnited.png",
+            "id": "t59",
+            "nombre": "Inter Miami",
+            "escudo": "/escudos/interMiami.png",
             "goles": null
         },
         "equipo2": {
-            "id": "t12",
-            "nombre": "Inter Miami",
-            "escudo": "/escudos/interMiami.png",
+            "id": "t30",
+            "nombre": "Tottenham",
+            "escudo": "/escudos/tottenham.png",
             "goles": null
         },
         "arbitro": null,

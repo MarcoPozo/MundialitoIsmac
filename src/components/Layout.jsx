@@ -27,7 +27,7 @@ export default function Layout() {
       path: "/cronograma",
       label: "Cronograma",
       icon: <FaCalendarAlt />,
-      enabled: false,
+      enabled: true,
     },
     { path: "/tabla", label: "Tabla", icon: <FaTable />, enabled: true },
     { path: "/equipos", label: "Equipos", icon: <FaUsers />, enabled: true },
