@@ -500,13 +500,13 @@
             "id": "t37",
             "nombre": "Liverpool",
             "escudo": "/escudos/liverpool.png",
-            "goles": null
+            "goles": 3
         },
         "equipo2": {
             "id": "t38",
             "nombre": "Manchester",
             "escudo": "/escudos/manchesterUnited.png",
-            "goles": null
+            "goles": 5
         },
         "arbitro": null,
         "transmision_url": null,
@@ -527,13 +527,13 @@
             "id": "t39",
             "nombre": "Bayern Munich",
             "escudo": "/escudos/bayernMunich.png",
-            "goles": null
+            "goles": 7
         },
         "equipo2": {
             "id": "t40",
             "nombre": "Chelsea",
             "escudo": "/escudos/chelsea.png",
-            "goles": null
+            "goles": 6
         },
         "arbitro": null,
         "transmision_url": null,
@@ -554,13 +554,13 @@
             "id": "t41",
             "nombre": "AC Milan",
             "escudo": "/escudos/milan.png",
-            "goles": null
+            "goles": 2
         },
         "equipo2": {
             "id": "t42",
             "nombre": "Juventus",
             "escudo": "/escudos/juventus.png",
-            "goles": null
+            "goles": 2
         },
         "arbitro": null,
         "transmision_url": null,
@@ -581,13 +581,13 @@
             "id": "t43",
             "nombre": "Barcelona",
             "escudo": "/escudos/barcelona.png",
-            "goles": null
+            "goles": 2
         },
         "equipo2": {
             "id": "t44",
             "nombre": "Tottenham",
             "escudo": "/escudos/tottenham.png",
-            "goles": null
+            "goles": 3
         },
         "arbitro": null,
         "transmision_url": null,
@@ -608,13 +608,13 @@
             "id": "t45",
             "nombre": "Boca Juniors",
             "escudo": "/escudos/bocaJuniors.png",
-            "goles": null
+            "goles": 8
         },
         "equipo2": {
             "id": "t46",
             "nombre": "Tottenham",
             "escudo": "/escudos/tottenham.png",
-            "goles": null
+            "goles": 3
         },
         "arbitro": null,
         "transmision_url": null,
@@ -635,13 +635,13 @@
             "id": "t47",
             "nombre": "Manchester",
             "escudo": "/escudos/manchesterUnited.png",
-            "goles": null
+            "goles": 1
         },
         "equipo2": {
             "id": "t48",
             "nombre": "Inter Miami",
             "escudo": "/escudos/interMiami.png",
-            "goles": null
+            "goles": 1
         },
         "arbitro": null,
         "transmision_url": null,

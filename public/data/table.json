@@ -23,21 +23,21 @@
                         "nombre": "Manchester United",
                         "siglas": "MU",
                         "escudo": "/escudos/manchesterUnited.png",
-                        "pj": 1,
-                        "gf": 8,
-                        "ge": 3,
-                        "gd": 5,
-                        "pts": 3
+                        "pj": 2,
+                        "gf": 13,
+                        "ge": 6,
+                        "gd": 7,
+                        "pts": 6
                     },
                     {
                         "id": "t3",
                         "nombre": "Liverpool",
                         "siglas": "LIV",
                         "escudo": "/escudos/liverpool.png",
-                        "pj": 1,
-                        "gf": 9,
-                        "ge": 5,
-                        "gd": 4,
+                        "pj": 2,
+                        "gf": 12,
+                        "ge": 11,
+                        "gd": 1,
                         "pts": 3
                     },
                     {
@@ -73,10 +73,10 @@
                         "nombre": "Chelsea",
                         "siglas": "CHE",
                         "escudo": "/escudos/chelsea.png",
-                        "pj": 1,
-                        "gf": 7,
-                        "ge": 4,
-                        "gd": 3,
+                        "pj": 2,
+                        "gf": 13,
+                        "ge": 11,
+                        "gd": 2,
                         "pts": 3
                     },
                     {
@@ -84,11 +84,11 @@
                         "nombre": "Bayern Munich",
                         "siglas": "BYM",
                         "escudo": "/escudos/bayernMunich.png",
-                        "pj": 1,
-                        "gf": 2,
-                        "ge": 6,
-                        "gd": -4,
-                        "pts": 0
+                        "pj": 2,
+                        "gf": 9,
+                        "ge": 12,
+                        "gd": -3,
+                        "pts": 3
                     },
                     {
                         "id": "t8",
@@ -134,22 +134,22 @@
                         "nombre": "Juventus",
                         "siglas": "JUV",
                         "escudo": "/escudos/juventus.png",
-                        "pj": 1,
-                        "gf": 1,
-                        "ge": 2,
+                        "pj": 2,
+                        "gf": 3,
+                        "ge": 4,
                         "gd": -1,
-                        "pts": 0
+                        "pts": 1
                     },
                     {
                         "id": "t12",
                         "nombre": "Ac Milan",
                         "siglas": "ACM",
                         "escudo": "/escudos/milan.png",
-                        "pj": 1,
-                        "gf": 1,
-                        "ge": 3,
+                        "pj": 2,
+                        "gf": 3,
+                        "ge": 5,
                         "gd": -2,
-                        "pts": 0
+                        "pts": 1
                     }
                 ]
             },
@@ -173,10 +173,10 @@
                         "nombre": "Barcelona",
                         "siglas": "BCN",
                         "escudo": "/escudos/barcelona.png",
-                        "pj": 1,
-                        "gf": 8,
-                        "ge": 2,
-                        "gd": 6,
+                        "pj": 2,
+                        "gf": 10,
+                        "ge": 5,
+                        "gd": 5,
                         "pts": 3
                     },
                     {
@@ -184,11 +184,11 @@
                         "nombre": "Tottenham",
                         "siglas": "TOT",
                         "escudo": "/escudos/tottenham.png",
-                        "pj": 1,
-                        "gf": 3,
-                        "ge": 4,
-                        "gd": -1,
-                        "pts": 0
+                        "pj": 2,
+                        "gf": 6,
+                        "ge": 6,
+                        "gd": 0,
+                        "pts": 3
                     },
                     {
                         "id": "t16",
@@ -214,43 +214,43 @@
                 "nombre": "Inter Miami",
                 "siglas": "IMM",
                 "escudo": "/escudos/interMiami.png",
-                "pj": 2,
-                "gf": 6,
-                "ge": 1,
+                "pj": 3,
+                "gf": 7,
+                "ge": 2,
                 "gd": 5,
-                "pts": 6
+                "pts": 9
             },
             {
                 "id": "f2",
                 "nombre": "Boca Juniors",
                 "siglas": "BJ",
                 "escudo": "/escudos/bocaJuniors.png",
-                "pj": 3,
-                "gf": 6,
-                "ge": 6,
-                "gd": 0,
-                "pts": 6
+                "pj": 4,
+                "gf": 14,
+                "ge": 9,
+                "gd": 5,
+                "pts": 9
             },
             {
                 "id": "f3",
                 "nombre": "Manchester United",
                 "siglas": "MU",
                 "escudo": "/escudos/manchesterUnited.png",
-                "pj": 2,
-                "gf": 5,
-                "ge": 3,
+                "pj": 3,
+                "gf": 6,
+                "ge": 4,
                 "gd": 2,
-                "pts": 3
+                "pts": 4
             },
             {
                 "id": "f4",
                 "nombre": "Totthenham",
                 "siglas": "TOT",
                 "escudo": "/escudos/tottenham.png",
-                "pj": 2,
-                "gf": 8,
-                "ge": 9,
-                "gd": -1,
+                "pj": 3,
+                "gf": 11,
+                "ge": 17,
+                "gd": -6,
                 "pts": 3
             },
             {
