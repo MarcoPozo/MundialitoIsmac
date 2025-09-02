@@ -20,10 +20,26 @@ export default function Home() {
         if (!res.ok) throw new Error("No se pudo cargar la información");
         const data = await res.json();
 
-        const futuros = data
-          .filter((m) => m.estado === "programado" || m.estado === "en_vivo")
-          .sort((a, b) => new Date(a.fecha_hora) - new Date(b.fecha_hora))
-          .slice(0, 6);
+        const todosFuturos = data.filter(
+          (m) => m.estado === "programado" || m.estado === "en_vivo"
+        );
+
+        const fechasValidas = todosFuturos
+          .map((m) => (Number.isFinite(m.fecha) ? m.fecha : -Infinity))
+          .filter((n) => Number.isFinite(n));
+
+        const ultimaFecha = fechasValidas.length
+          ? Math.max(...fechasValidas)
+          : null;
+
+        const futuros =
+          ultimaFecha !== null
+            ? todosFuturos
+                .filter((m) => m.fecha === ultimaFecha)
+                .sort((a, b) => new Date(a.fecha_hora) - new Date(b.fecha_hora))
+            : todosFuturos.sort(
+                (a, b) => new Date(a.fecha_hora) - new Date(b.fecha_hora)
+              );
 
         setUpcoming(futuros);
       } catch (e) {
@@ -73,9 +89,8 @@ export default function Home() {
         <SectionTitle
           right={
             <Link
-              to="/partidos"
-              className="text-sm text-emerald-700 hover:underline"
-              onClick={(e) => e.preventDefault()}>
+              to="/cronograma"
+              className="text-sm text-emerald-700 hover:underline">
               Ver todo
             </Link>
           }>

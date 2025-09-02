@@ -650,24 +650,24 @@
     {
         "id_partido": "m25",
         "fecha": 5,
-        "fecha_hora": "2025-09-06T16:00:00-05:00",
+        "fecha_hora": "2025-09-06T15:00:00-05:00",
         "sede": "Cancha 1",
         "jornada": null,
         "fase": "grupos",
-        "grupo": "A",
+        "grupo": "C",
         "estado": "programado",
         "categoria": "Libre",
         "genero": "Masculino",
         "equipo1": {
             "id": "t49",
-            "nombre": "Manchester",
-            "escudo": "/escudos/manchesterUnited.png",
+            "nombre": "Juventus",
+            "escudo": "/escudos/juventus.png",
             "goles": null
         },
         "equipo2": {
             "id": "t50",
-            "nombre": "Racing",
-            "escudo": "/escudos/racing.png",
+            "nombre": "Inter Milan",
+            "escudo": "/escudos/interMilan.png",
             "goles": null
         },
         "arbitro": null,
@@ -677,24 +677,24 @@
     {
         "id_partido": "m26",
         "fecha": 5,
-        "fecha_hora": "2025-09-06T16:00:00-05:00",
+        "fecha_hora": "2025-09-06T15:00:00-05:00",
         "sede": "Cancha 2",
         "jornada": null,
         "fase": "grupos",
-        "grupo": "B",
+        "grupo": "C",
         "estado": "programado",
         "categoria": "Libre",
         "genero": "Masculino",
         "equipo1": {
             "id": "t51",
-            "nombre": "Chelsea",
-            "escudo": "/escudos/chelsea.png",
+            "nombre": "AC Milan",
+            "escudo": "/escudos/milan.png",
             "goles": null
         },
         "equipo2": {
             "id": "t52",
-            "nombre": "Botafogo",
-            "escudo": "/escudos/botafogo.png",
+            "nombre": "Flamengo",
+            "escudo": "/escudos/flamengo.png",
             "goles": null
         },
         "arbitro": null,
@@ -705,23 +705,23 @@
         "id_partido": "m27",
         "fecha": 5,
         "fecha_hora": "2025-09-06T16:00:00-05:00",
-        "sede": "Cancha 3",
+        "sede": "Cancha 1",
         "jornada": null,
         "fase": "grupos",
-        "grupo": "C",
+        "grupo": "B",
         "estado": "programado",
         "categoria": "Libre",
         "genero": "Masculino",
         "equipo1": {
             "id": "t53",
-            "nombre": "Juventus",
-            "escudo": "/escudos/juventus.png",
+            "nombre": "Chelsea",
+            "escudo": "/escudos/chelsea.png",
             "goles": null
         },
         "equipo2": {
             "id": "t54",
-            "nombre": "Inter Milan",
-            "escudo": "/escudos/interMilan.png",
+            "nombre": "Botafogo",
+            "escudo": "/escudos/botafogo.png",
             "goles": null
         },
         "arbitro": null,
@@ -731,24 +731,24 @@
     {
         "id_partido": "m28",
         "fecha": 5,
-        "fecha_hora": "2025-09-06T17:00:00-05:00",
-        "sede": "Cancha 1",
+        "fecha_hora": "2025-09-06T16:00:00-05:00",
+        "sede": "Cancha 2",
         "jornada": null,
         "fase": "grupos",
-        "grupo": "D",
+        "grupo": "B",
         "estado": "programado",
         "categoria": "Libre",
         "genero": "Masculino",
         "equipo1": {
             "id": "t55",
-            "nombre": "Tottenham",
-            "escudo": "/escudos/tottenham.png",
+            "nombre": "Bayern Munich",
+            "escudo": "/escudos/bayernMunich.png",
             "goles": null
         },
         "equipo2": {
             "id": "t56",
-            "nombre": "Ajax",
-            "escudo": "/escudos/ajax.png",
+            "nombre": "PSG",
+            "escudo": "/escudos/psg.png",
             "goles": null
         },
         "arbitro": null,
@@ -759,13 +759,13 @@
         "id_partido": "m29",
         "fecha": 5,
         "fecha_hora": "2025-09-06T17:00:00-05:00",
-        "sede": "Cancha 2",
+        "sede": "Cancha 1",
         "jornada": null,
-        "fase": "liga",
-        "grupo": null,
+        "fase": "grupos",
+        "grupo": "A",
         "estado": "programado",
         "categoria": "Libre",
-        "genero": "Femenino",
+        "genero": "Masculino",
         "equipo1": {
             "id": "t57",
             "nombre": "Manchester",
@@ -774,8 +774,8 @@
         },
         "equipo2": {
             "id": "t58",
-            "nombre": "Liverpool",
-            "escudo": "/escudos/liverpool.png",
+            "nombre": "Racing",
+            "escudo": "/escudos/racing.png",
             "goles": null
         },
         "arbitro": null,
@@ -786,6 +786,87 @@
         "id_partido": "m30",
         "fecha": 5,
         "fecha_hora": "2025-09-06T17:00:00-05:00",
+        "sede": "Cancha 2",
+        "jornada": null,
+        "fase": "grupos",
+        "grupo": "A",
+        "estado": "programado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "equipo1": {
+            "id": "t59",
+            "nombre": "Liverpool",
+            "escudo": "/escudos/liverpool.png",
+            "goles": null
+        },
+        "equipo2": {
+            "id": "t60",
+            "nombre": "Estudiantes",
+            "escudo": "/escudos/estudiantes.png",
+            "goles": null
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m31",
+        "fecha": 5,
+        "fecha_hora": "2025-09-06T18:00:00-05:00",
+        "sede": "Cancha 1",
+        "jornada": null,
+        "fase": "grupos",
+        "grupo": "D",
+        "estado": "programado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "equipo1": {
+            "id": "t61",
+            "nombre": "Barcelona",
+            "escudo": "/escudos/barcelona.png",
+            "goles": null
+        },
+        "equipo2": {
+            "id": "t62",
+            "nombre": "Cosmos",
+            "escudo": "/escudos/cosmos.png",
+            "goles": null
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m32",
+        "fecha": 5,
+        "fecha_hora": "2025-09-06T18:00:00-05:00",
+        "sede": "Cancha 2",
+        "jornada": null,
+        "fase": "grupos",
+        "grupo": "D",
+        "estado": "programado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "equipo1": {
+            "id": "t63",
+            "nombre": "Tottenham",
+            "escudo": "/escudos/tottenham.png",
+            "goles": null
+        },
+        "equipo2": {
+            "id": "t64",
+            "nombre": "Ajax",
+            "escudo": "/escudos/ajax.png",
+            "goles": null
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m33",
+        "fecha": 5,
+        "fecha_hora": "2025-09-06T15:00:00-05:00",
         "sede": "Cancha 3",
         "jornada": null,
         "fase": "liga",
@@ -794,15 +875,42 @@
         "categoria": "Libre",
         "genero": "Femenino",
         "equipo1": {
-            "id": "t59",
+            "id": "t65",
             "nombre": "Inter Miami",
             "escudo": "/escudos/interMiami.png",
             "goles": null
         },
         "equipo2": {
-            "id": "t30",
+            "id": "t66",
             "nombre": "Tottenham",
             "escudo": "/escudos/tottenham.png",
+            "goles": null
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "m34",
+        "fecha": 5,
+        "fecha_hora": "2025-09-06T16:00:00-05:00",
+        "sede": "Cancha 3",
+        "jornada": null,
+        "fase": "liga",
+        "grupo": null,
+        "estado": "programado",
+        "categoria": "Libre",
+        "genero": "Femenino",
+        "equipo1": {
+            "id": "t67",
+            "nombre": "Manchester",
+            "escudo": "/escudos/manchesterUnited.png",
+            "goles": null
+        },
+        "equipo2": {
+            "id": "t68",
+            "nombre": "Liverpool",
+            "escudo": "/escudos/liverpool.png",
             "goles": null
         },
         "arbitro": null,
