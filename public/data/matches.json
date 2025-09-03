@@ -654,20 +654,20 @@
         "sede": "Cancha 1",
         "jornada": null,
         "fase": "grupos",
-        "grupo": "C",
+        "grupo": "A",
         "estado": "programado",
         "categoria": "Libre",
         "genero": "Masculino",
         "equipo1": {
             "id": "t49",
-            "nombre": "Juventus",
-            "escudo": "/escudos/juventus.png",
+            "nombre": "Manchester",
+            "escudo": "/escudos/manchesterUnited.png",
             "goles": null
         },
         "equipo2": {
             "id": "t50",
-            "nombre": "Inter Milan",
-            "escudo": "/escudos/interMilan.png",
+            "nombre": "Racing",
+            "escudo": "/escudos/racing.png",
             "goles": null
         },
         "arbitro": null,
@@ -762,20 +762,20 @@
         "sede": "Cancha 1",
         "jornada": null,
         "fase": "grupos",
-        "grupo": "A",
+        "grupo": "C",
         "estado": "programado",
         "categoria": "Libre",
         "genero": "Masculino",
         "equipo1": {
             "id": "t57",
-            "nombre": "Manchester",
-            "escudo": "/escudos/manchesterUnited.png",
+            "nombre": "Juventus",
+            "escudo": "/escudos/juventus.png",
             "goles": null
         },
         "equipo2": {
             "id": "t58",
-            "nombre": "Racing",
-            "escudo": "/escudos/racing.png",
+            "nombre": "Inter Milan",
+            "escudo": "/escudos/interMilan.png",
             "goles": null
         },
         "arbitro": null,
