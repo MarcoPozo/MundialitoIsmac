@@ -655,20 +655,20 @@
         "jornada": null,
         "fase": "grupos",
         "grupo": "A",
-        "estado": "programado",
+        "estado": "finalizado",
         "categoria": "Libre",
         "genero": "Masculino",
         "equipo1": {
             "id": "t49",
             "nombre": "Manchester",
             "escudo": "/escudos/manchesterUnited.png",
-            "goles": null
+            "goles": 8
         },
         "equipo2": {
             "id": "t50",
             "nombre": "Racing",
             "escudo": "/escudos/racing.png",
-            "goles": null
+            "goles": 2
         },
         "arbitro": null,
         "transmision_url": null,
@@ -682,20 +682,20 @@
         "jornada": null,
         "fase": "grupos",
         "grupo": "C",
-        "estado": "programado",
+        "estado": "finalizado",
         "categoria": "Libre",
         "genero": "Masculino",
         "equipo1": {
             "id": "t51",
             "nombre": "AC Milan",
             "escudo": "/escudos/milan.png",
-            "goles": null
+            "goles": 3
         },
         "equipo2": {
             "id": "t52",
             "nombre": "Flamengo",
             "escudo": "/escudos/flamengo.png",
-            "goles": null
+            "goles": 11
         },
         "arbitro": null,
         "transmision_url": null,
@@ -709,20 +709,20 @@
         "jornada": null,
         "fase": "grupos",
         "grupo": "B",
-        "estado": "programado",
+        "estado": "finalizado",
         "categoria": "Libre",
         "genero": "Masculino",
         "equipo1": {
             "id": "t53",
             "nombre": "Chelsea",
             "escudo": "/escudos/chelsea.png",
-            "goles": null
+            "goles": 4
         },
         "equipo2": {
             "id": "t54",
             "nombre": "Botafogo",
             "escudo": "/escudos/botafogo.png",
-            "goles": null
+            "goles": 5
         },
         "arbitro": null,
         "transmision_url": null,
@@ -736,20 +736,20 @@
         "jornada": null,
         "fase": "grupos",
         "grupo": "B",
-        "estado": "programado",
+        "estado": "finalizado",
         "categoria": "Libre",
         "genero": "Masculino",
         "equipo1": {
             "id": "t55",
             "nombre": "Bayern Munich",
             "escudo": "/escudos/bayernMunich.png",
-            "goles": null
+            "goles": 3
         },
         "equipo2": {
             "id": "t56",
             "nombre": "PSG",
             "escudo": "/escudos/psg.png",
-            "goles": null
+            "goles": 1
         },
         "arbitro": null,
         "transmision_url": null,
@@ -763,20 +763,20 @@
         "jornada": null,
         "fase": "grupos",
         "grupo": "C",
-        "estado": "programado",
+        "estado": "finalizado",
         "categoria": "Libre",
         "genero": "Masculino",
         "equipo1": {
             "id": "t57",
             "nombre": "Juventus",
             "escudo": "/escudos/juventus.png",
-            "goles": null
+            "goles": 4
         },
         "equipo2": {
             "id": "t58",
             "nombre": "Inter Milan",
             "escudo": "/escudos/interMilan.png",
-            "goles": null
+            "goles": 4
         },
         "arbitro": null,
         "transmision_url": null,
@@ -790,20 +790,20 @@
         "jornada": null,
         "fase": "grupos",
         "grupo": "A",
-        "estado": "programado",
+        "estado": "finalizado",
         "categoria": "Libre",
         "genero": "Masculino",
         "equipo1": {
             "id": "t59",
             "nombre": "Liverpool",
             "escudo": "/escudos/liverpool.png",
-            "goles": null
+            "goles": 4
         },
         "equipo2": {
             "id": "t60",
             "nombre": "Estudiantes",
             "escudo": "/escudos/estudiantes.png",
-            "goles": null
+            "goles": 11
         },
         "arbitro": null,
         "transmision_url": null,
@@ -817,20 +817,20 @@
         "jornada": null,
         "fase": "grupos",
         "grupo": "D",
-        "estado": "programado",
+        "estado": "finalizado",
         "categoria": "Libre",
         "genero": "Masculino",
         "equipo1": {
             "id": "t61",
             "nombre": "Barcelona",
             "escudo": "/escudos/barcelona.png",
-            "goles": null
+            "goles": 3
         },
         "equipo2": {
             "id": "t62",
             "nombre": "Cosmos",
             "escudo": "/escudos/cosmos.png",
-            "goles": null
+            "goles": 9
         },
         "arbitro": null,
         "transmision_url": null,
@@ -844,20 +844,20 @@
         "jornada": null,
         "fase": "grupos",
         "grupo": "D",
-        "estado": "programado",
+        "estado": "finalizado",
         "categoria": "Libre",
         "genero": "Masculino",
         "equipo1": {
             "id": "t63",
             "nombre": "Tottenham",
             "escudo": "/escudos/tottenham.png",
-            "goles": null
+            "goles": 9
         },
         "equipo2": {
             "id": "t64",
             "nombre": "Ajax",
             "escudo": "/escudos/ajax.png",
-            "goles": null
+            "goles": 0
         },
         "arbitro": null,
         "transmision_url": null,
@@ -871,20 +871,20 @@
         "jornada": null,
         "fase": "liga",
         "grupo": null,
-        "estado": "programado",
+        "estado": "finalizado",
         "categoria": "Libre",
         "genero": "Femenino",
         "equipo1": {
             "id": "t65",
             "nombre": "Inter Miami",
             "escudo": "/escudos/interMiami.png",
-            "goles": null
+            "goles": 5
         },
         "equipo2": {
             "id": "t66",
             "nombre": "Tottenham",
             "escudo": "/escudos/tottenham.png",
-            "goles": null
+            "goles": 4
         },
         "arbitro": null,
         "transmision_url": null,
@@ -898,19 +898,123 @@
         "jornada": null,
         "fase": "liga",
         "grupo": null,
-        "estado": "programado",
+        "estado": "finalizado",
         "categoria": "Libre",
         "genero": "Femenino",
         "equipo1": {
             "id": "t67",
             "nombre": "Manchester",
             "escudo": "/escudos/manchesterUnited.png",
-            "goles": null
+            "goles": 3
         },
         "equipo2": {
             "id": "t68",
             "nombre": "Liverpool",
             "escudo": "/escudos/liverpool.png",
+            "goles": 0
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": "Equipo Liverpool no se presento"
+    },
+    {
+        "id_partido": "qf1",
+        "fecha": 6,
+        "fecha_hora": "2025-09-13T16:00:00-05:00",
+        "sede": "Cancha 1",
+        "etapa": "eliminatoria",
+        "ronda": "cuartos",
+        "estado": "programado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "placeholder1": "GANADOR GRUPO A",
+        "placeholder2": "SEGUNDO GRUPO B",
+        "equipo1": {
+            "nombre": "Manchester",
+            "escudo": "/escudos/manchesterUnited.png",
+            "goles": null
+        },
+        "equipo2": {
+            "nombre": "Bayern Munich",
+            "escudo": "/escudos/bayernMunich.png",
+            "goles": null
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "qf2",
+        "fecha": 6,
+        "fecha_hora": "2025-09-13T16:00:00-05:00",
+        "sede": "Cancha 2",
+        "etapa": "eliminatoria",
+        "ronda": "cuartos",
+        "estado": "programado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "placeholder1": "GANADOR GRUPO B",
+        "placeholder2": "SEGUNDO GRUPO A",
+        "equipo1": {
+            "nombre": "Botafogo",
+            "escudo": "/escudos/botafogo.png",
+            "goles": null
+        },
+        "equipo2": {
+            "nombre": "Estudiantes",
+            "escudo": "/escudos/estudiantes.png",
+            "goles": null
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "qf3",
+        "fecha": 6,
+        "fecha_hora": "2025-09-13T17:00:00-05:00",
+        "sede": "Cancha 1",
+        "etapa": "eliminatoria",
+        "ronda": "cuartos",
+        "estado": "programado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "placeholder1": "GANADOR GRUPO C",
+        "placeholder2": "SEGUNDO GRUPO D",
+        "equipo1": {
+            "nombre": "Flamengo",
+            "escudo": "/escudos/flamengo.png",
+            "goles": null
+        },
+        "equipo2": {
+            "nombre": "Tottenham",
+            "escudo": "/escudos/tottenham.png",
+            "goles": null
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "qf4",
+        "fecha": 6,
+        "fecha_hora": "2025-09-13T17:00:00-05:00",
+        "sede": "Cancha 2",
+        "etapa": "eliminatoria",
+        "ronda": "cuartos",
+        "estado": "programado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "placeholder1": "GANADOR GRUPO D",
+        "placeholder2": "SEGUNDO GRUPO C",
+        "equipo1": {
+            "nombre": "Cosmos",
+            "escudo": "/escudos/cosmos.png",
+            "goles": null
+        },
+        "equipo2": {
+            "nombre": "Inter Milan",
+            "escudo": "/escudos/interMilan.png",
             "goles": null
         },
         "arbitro": null,

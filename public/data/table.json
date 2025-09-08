@@ -12,32 +12,32 @@
                         "nombre": "Estudiantes",
                         "siglas": "EST",
                         "escudo": "/escudos/estudiantes.png",
-                        "pj": 2,
-                        "gf": 15,
-                        "ge": 10,
-                        "gd": 5,
-                        "pts": 3
+                        "pj": 3,
+                        "gf": 26,
+                        "ge": 14,
+                        "gd": 12,
+                        "pts": 6
                     },
                     {
                         "id": "t2",
                         "nombre": "Manchester United",
                         "siglas": "MU",
                         "escudo": "/escudos/manchesterUnited.png",
-                        "pj": 2,
-                        "gf": 13,
-                        "ge": 6,
-                        "gd": 7,
-                        "pts": 6
+                        "pj": 3,
+                        "gf": 21,
+                        "ge": 9,
+                        "gd": 13,
+                        "pts": 9
                     },
                     {
                         "id": "t3",
                         "nombre": "Liverpool",
                         "siglas": "LIV",
                         "escudo": "/escudos/liverpool.png",
-                        "pj": 2,
-                        "gf": 12,
-                        "ge": 11,
-                        "gd": 1,
+                        "pj": 3,
+                        "gf": 16,
+                        "ge": 22,
+                        "gd": -6,
                         "pts": 3
                     },
                     {
@@ -45,10 +45,10 @@
                         "nombre": "Racing",
                         "siglas": "RC",
                         "escudo": "/escudos/racing.png",
-                        "pj": 2,
-                        "gf": 7,
-                        "ge": 21,
-                        "gd": -14,
+                        "pj": 3,
+                        "gf": 9,
+                        "ge": 29,
+                        "gd": -20,
                         "pts": 0
                     }
                 ]
@@ -62,21 +62,21 @@
                         "nombre": "Botafogo",
                         "siglas": "BOT",
                         "escudo": "/escudos/botafogo.png",
-                        "pj": 2,
-                        "gf": 16,
-                        "ge": 4,
-                        "gd": 12,
-                        "pts": 6
+                        "pj": 3,
+                        "gf": 21,
+                        "ge": 8,
+                        "gd": 13,
+                        "pts": 9
                     },
                     {
                         "id": "t6",
                         "nombre": "Chelsea",
                         "siglas": "CHE",
                         "escudo": "/escudos/chelsea.png",
-                        "pj": 2,
-                        "gf": 13,
-                        "ge": 11,
-                        "gd": 2,
+                        "pj": 3,
+                        "gf": 17,
+                        "ge": 16,
+                        "gd": 1,
                         "pts": 3
                     },
                     {
@@ -84,21 +84,21 @@
                         "nombre": "Bayern Munich",
                         "siglas": "BYM",
                         "escudo": "/escudos/bayernMunich.png",
-                        "pj": 2,
-                        "gf": 9,
-                        "ge": 12,
-                        "gd": -3,
-                        "pts": 3
+                        "pj": 3,
+                        "gf": 12,
+                        "ge": 13,
+                        "gd": -1,
+                        "pts": 6
                     },
                     {
                         "id": "t8",
                         "nombre": "PSG",
                         "siglas": "PSG",
                         "escudo": "/escudos/psg.png",
-                        "pj": 2,
-                        "gf": 6,
-                        "ge": 17,
-                        "gd": -11,
+                        "pj": 3,
+                        "gf": 7,
+                        "ge": 20,
+                        "gd": -13,
                         "pts": 0
                     }
                 ]
@@ -112,43 +112,43 @@
                         "nombre": "Flamengo",
                         "siglas": "FLM",
                         "escudo": "/escudos/flamengo.png",
-                        "pj": 2,
-                        "gf": 5,
-                        "ge": 3,
-                        "gd": 2,
-                        "pts": 6
+                        "pj": 3,
+                        "gf": 16,
+                        "ge": 6,
+                        "gd": 10,
+                        "pts": 9
                     },
                     {
                         "id": "t10",
                         "nombre": "Inter Milan",
                         "siglas": "IM",
                         "escudo": "/escudos/interMilan.png",
-                        "pj": 2,
-                        "gf": 5,
-                        "ge": 4,
+                        "pj": 3,
+                        "gf": 9,
+                        "ge": 8,
                         "gd": 1,
-                        "pts": 3
+                        "pts": 4
                     },
                     {
                         "id": "t11",
                         "nombre": "Juventus",
                         "siglas": "JUV",
                         "escudo": "/escudos/juventus.png",
-                        "pj": 2,
-                        "gf": 3,
-                        "ge": 4,
+                        "pj": 3,
+                        "gf": 7,
+                        "ge": 8,
                         "gd": -1,
-                        "pts": 1
+                        "pts": 2
                     },
                     {
                         "id": "t12",
                         "nombre": "Ac Milan",
                         "siglas": "ACM",
                         "escudo": "/escudos/milan.png",
-                        "pj": 2,
-                        "gf": 3,
-                        "ge": 5,
-                        "gd": -2,
+                        "pj": 3,
+                        "gf": 6,
+                        "ge": 16,
+                        "gd": -10,
                         "pts": 1
                     }
                 ]
@@ -162,21 +162,21 @@
                         "nombre": "Cosmos",
                         "siglas": "COS",
                         "escudo": "/escudos/cosmos.png",
-                        "pj": 2,
-                        "gf": 13,
-                        "ge": 8,
-                        "gd": 5,
-                        "pts": 6
+                        "pj": 3,
+                        "gf": 22,
+                        "ge": 11,
+                        "gd": 11,
+                        "pts": 9
                     },
                     {
                         "id": "t14",
                         "nombre": "Barcelona",
                         "siglas": "BCN",
                         "escudo": "/escudos/barcelona.png",
-                        "pj": 2,
-                        "gf": 10,
-                        "ge": 5,
-                        "gd": 5,
+                        "pj": 3,
+                        "gf": 13,
+                        "ge": 14,
+                        "gd": -1,
                         "pts": 3
                     },
                     {
@@ -184,21 +184,21 @@
                         "nombre": "Tottenham",
                         "siglas": "TOT",
                         "escudo": "/escudos/tottenham.png",
-                        "pj": 2,
-                        "gf": 6,
+                        "pj": 3,
+                        "gf": 15,
                         "ge": 6,
-                        "gd": 0,
-                        "pts": 3
+                        "gd": 9,
+                        "pts": 6
                     },
                     {
                         "id": "t16",
                         "nombre": "Ajax",
                         "siglas": "AJX",
                         "escudo": "/escudos/ajax.png",
-                        "pj": 2,
+                        "pj": 3,
                         "gf": 7,
-                        "ge": 17,
-                        "gd": -10,
+                        "ge": 26,
+                        "gd": -19,
                         "pts": 0
                     }
                 ]
@@ -214,11 +214,11 @@
                 "nombre": "Inter Miami",
                 "siglas": "IMM",
                 "escudo": "/escudos/interMiami.png",
-                "pj": 3,
-                "gf": 7,
-                "ge": 2,
-                "gd": 5,
-                "pts": 9
+                "pj": 4,
+                "gf": 12,
+                "ge": 6,
+                "gd": 6,
+                "pts": 10
             },
             {
                 "id": "f2",
@@ -236,21 +236,21 @@
                 "nombre": "Manchester United",
                 "siglas": "MU",
                 "escudo": "/escudos/manchesterUnited.png",
-                "pj": 3,
-                "gf": 6,
+                "pj": 4,
+                "gf": 9,
                 "ge": 4,
-                "gd": 2,
-                "pts": 4
+                "gd": 5,
+                "pts": 7
             },
             {
                 "id": "f4",
                 "nombre": "Totthenham",
                 "siglas": "TOT",
                 "escudo": "/escudos/tottenham.png",
-                "pj": 3,
-                "gf": 11,
-                "ge": 17,
-                "gd": -6,
+                "pj": 4,
+                "gf": 15,
+                "ge": 22,
+                "gd": -7,
                 "pts": 3
             },
             {
@@ -258,7 +258,7 @@
                 "nombre": "Liverpool",
                 "siglas": "LIV",
                 "escudo": "/escudos/liverpool.png",
-                "pj": 3,
+                "pj": 4,
                 "gf": 7,
                 "ge": 13,
                 "gd": -6,

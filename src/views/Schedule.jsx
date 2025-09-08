@@ -1,4 +1,5 @@
 import MatchCard from "../components/MatchCard";
+import Bracket from "../components/bracket/Bracket";
 import { useEffect, useMemo, useState } from "react";
 import SectionTitle from "../components/SectionTitle";
 import { FaCalendarAlt, FaChevronDown, FaChevronUp } from "react-icons/fa";
@@ -69,6 +70,9 @@ export default function Schedule() {
         <FaCalendarAlt className="text-2xl text-emerald-600" />
         <h1 className="text-xl sm:text-2xl font-bold">Cronograma</h1>
       </header>
+
+      {/* Fase eliminatoria */}
+      {!loading && !error && <Bracket matches={matches} />}
 
       <SectionTitle>Fechas del torneo</SectionTitle>
 
