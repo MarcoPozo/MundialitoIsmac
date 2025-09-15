@@ -924,7 +924,7 @@
         "sede": "Cancha 1",
         "etapa": "eliminatoria",
         "ronda": "cuartos",
-        "estado": "programado",
+        "estado": "finalizado",
         "categoria": "Libre",
         "genero": "Masculino",
         "placeholder1": "GANADOR GRUPO A",
@@ -932,12 +932,12 @@
         "equipo1": {
             "nombre": "Manchester",
             "escudo": "/escudos/manchesterUnited.png",
-            "goles": null
+            "goles": 4
         },
         "equipo2": {
             "nombre": "Bayern Munich",
             "escudo": "/escudos/bayernMunich.png",
-            "goles": null
+            "goles": 2
         },
         "arbitro": null,
         "transmision_url": null,
@@ -950,7 +950,7 @@
         "sede": "Cancha 2",
         "etapa": "eliminatoria",
         "ronda": "cuartos",
-        "estado": "programado",
+        "estado": "finalizado",
         "categoria": "Libre",
         "genero": "Masculino",
         "placeholder1": "GANADOR GRUPO B",
@@ -958,12 +958,12 @@
         "equipo1": {
             "nombre": "Botafogo",
             "escudo": "/escudos/botafogo.png",
-            "goles": null
+            "goles": 8
         },
         "equipo2": {
             "nombre": "Estudiantes",
             "escudo": "/escudos/estudiantes.png",
-            "goles": null
+            "goles": 3
         },
         "arbitro": null,
         "transmision_url": null,
@@ -976,7 +976,7 @@
         "sede": "Cancha 1",
         "etapa": "eliminatoria",
         "ronda": "cuartos",
-        "estado": "programado",
+        "estado": "finalizado",
         "categoria": "Libre",
         "genero": "Masculino",
         "placeholder1": "GANADOR GRUPO C",
@@ -984,12 +984,12 @@
         "equipo1": {
             "nombre": "Flamengo",
             "escudo": "/escudos/flamengo.png",
-            "goles": null
+            "goles": 3
         },
         "equipo2": {
             "nombre": "Tottenham",
             "escudo": "/escudos/tottenham.png",
-            "goles": null
+            "goles": 5
         },
         "arbitro": null,
         "transmision_url": null,
@@ -1002,7 +1002,7 @@
         "sede": "Cancha 2",
         "etapa": "eliminatoria",
         "ronda": "cuartos",
-        "estado": "programado",
+        "estado": "finalizado",
         "categoria": "Libre",
         "genero": "Masculino",
         "placeholder1": "GANADOR GRUPO D",
@@ -1010,11 +1010,63 @@
         "equipo1": {
             "nombre": "Cosmos",
             "escudo": "/escudos/cosmos.png",
-            "goles": null
+            "goles": 4
         },
         "equipo2": {
             "nombre": "Inter Milan",
             "escudo": "/escudos/interMilan.png",
+            "goles": 2
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "sf1",
+        "fecha": 7,
+        "fecha_hora": "2025-09-20T16:00:00-05:00",
+        "sede": "Cancha 1",
+        "etapa": "eliminatoria",
+        "ronda": "semifinal",
+        "estado": "programado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "placeholder1": "GANADOR GRUPO D",
+        "placeholder2": "SEGUNDO GRUPO C",
+        "equipo1": {
+            "nombre": "Manchester",
+            "escudo": "/escudos/manchesterUnited.png",
+            "goles": null
+        },
+        "equipo2": {
+            "nombre": "Botafogo",
+            "escudo": "/escudos/botafogo.png",
+            "goles": null
+        },
+        "arbitro": null,
+        "transmision_url": null,
+        "observaciones": null
+    },
+    {
+        "id_partido": "sf2",
+        "fecha": 7,
+        "fecha_hora": "2025-09-20T17:00:00-05:00",
+        "sede": "Cancha 1",
+        "etapa": "eliminatoria",
+        "ronda": "semifinal",
+        "estado": "programado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "placeholder1": "GANADOR GRUPO D",
+        "placeholder2": "SEGUNDO GRUPO C",
+        "equipo1": {
+            "nombre": "Tottenham",
+            "escudo": "/escudos/tottenham.png",
+            "goles": null
+        },
+        "equipo2": {
+            "nombre": "Cosmos",
+            "escudo": "/escudos/cosmos.png",
             "goles": null
         },
         "arbitro": null,
