@@ -94,7 +94,7 @@ export default function Home() {
               Ver todo
             </Link>
           }>
-          Próximos partidos - Semifinales
+          Próximos partidos - Final Mundialito 🏆
         </SectionTitle>
 
         {error && (

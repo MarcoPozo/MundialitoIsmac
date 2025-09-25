@@ -1028,7 +1028,7 @@
         "sede": "Cancha 1",
         "etapa": "eliminatoria",
         "ronda": "semifinal",
-        "estado": "programado",
+        "estado": "finalizado",
         "categoria": "Libre",
         "genero": "Masculino",
         "placeholder1": "GANADOR GRUPO D",
@@ -1054,7 +1054,7 @@
         "sede": "Cancha 1",
         "etapa": "eliminatoria",
         "ronda": "semifinal",
-        "estado": "programado",
+        "estado": "finalizado",
         "categoria": "Libre",
         "genero": "Masculino",
         "placeholder1": "GANADOR GRUPO D",
@@ -1072,5 +1072,74 @@
         "arbitro": null,
         "transmision_url": null,
         "observaciones": null
+    },
+    {
+        "id_partido": "fm1",
+        "fecha": 8,
+        "fecha_hora": "2025-09-27T17:00:00-05:00",
+        "sede": "Cancha 1",
+        "etapa": "eliminatoria",
+        "ronda": "final_masculino",
+        "estado": "programado",
+        "categoria": "Libre",
+        "genero": "Masculino",
+        "placeholder1": "GANADOR 1",
+        "placeholder2": "GANADOR 2",
+        "equipo1": {
+            "nombre": "Botafogo",
+            "escudo": "/escudos/botafogo.png",
+            "goles": null
+        },
+        "equipo2": {
+            "nombre": "Cosmos",
+            "escudo": "/escudos/cosmos.png",
+            "goles": null
+        }
+    },
+    {
+        "id_partido": "ff1",
+        "fecha": 8,
+        "fecha_hora": "2025-09-27T16:00:00-05:00",
+        "sede": "Cancha 1",
+        "etapa": "eliminatoria",
+        "ronda": "final_femenino",
+        "estado": "programado",
+        "categoria": "Libre",
+        "genero": "Femenino",
+        "placeholder1": "1er Puesto",
+        "placeholder2": "2do Puesto",
+        "equipo1": {
+            "nombre": "Inter Miami",
+            "escudo": "/escudos/interMiami.png",
+            "goles": null
+        },
+        "equipo2": {
+            "nombre": "Boca Juniors",
+            "escudo": "/escudos/bocaJuniors.png",
+            "goles": null
+        }
+    },
+    {
+        "id_partido": "ff2",
+        "fecha": 8,
+        "fecha_hora": "2025-09-27T15:00:00-05:00",
+        "sede": "Cancha 1",
+        "etapa": "eliminatoria",
+        "ronda": "tercer_lugar_femenino",
+        "estado": "programado",
+        "categoria": "Libre",
+        "genero": "Femenino",
+        "placeholder1": "1er Puesto",
+        "placeholder2": "2do Puesto",
+        "equipo1": {
+            "nombre": "Manchester",
+            "escudo": "/escudos/manchesterUnited.png",
+            "goles": null
+        },
+        "equipo2": {
+            "nombre": "Tottenham",
+            "escudo": "/escudos/bocaJuniors.png",
+            "goles": null
+        }
     }
 ]
