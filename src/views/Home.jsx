@@ -94,7 +94,7 @@ export default function Home() {
               Ver todo
             </Link>
           }>
-          Próximos partidos - Final Mundialito 🏆
+          Sin partidos proximos
         </SectionTitle>
 
         {error && (
@@ -122,7 +122,7 @@ export default function Home() {
 
             {!upcoming.length && (
               <div className="text-slate-500">
-                Sin partidos programados por ahora.
+                El mundialito Ismac a finalizado, dirígete a galería
               </div>
             )}
           </div>
