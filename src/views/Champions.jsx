@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { motion } from "framer-motion";
-import { FaCrown, FaMedal, FaStar } from "react-icons/fa";
+import { FaCrown, FaMedal, FaStar, FaMars, FaVenus } from "react-icons/fa";
 
 export default function Champions() {
   const [data, setData] = useState(null);
@@ -27,18 +27,20 @@ export default function Champions() {
     return () => ctrl.abort();
   }, []);
 
+  const items = useMemo(() => {
+    const raw = Array.isArray(data?.items) ? data.items : [];
+    // Compatibilidad: si no trae categoria => "masculino"
+    return raw.map((it) => ({
+      categoria: it.categoria || "masculino",
+      ...it,
+    }));
+  }, [data]);
+
   if (loading) {
     return (
       <section className="mx-auto max-w-6xl px-4">
         <Header />
-        <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
-          {[...Array(2)].map((_, i) => (
-            <div
-              key={i}
-              className="h-56 rounded-2xl bg-slate-200 animate-pulse"
-            />
-          ))}
-        </div>
+        <SkeletonPodios />
       </section>
     );
   }
@@ -54,20 +56,50 @@ export default function Champions() {
     );
   }
 
-  const items = (data?.items || []).sort((a, b) => a.pos - b.pos);
-  const champ = items.find((i) => i.pos === 1);
-  const sub = items.find((i) => i.pos === 2);
+  // Agrupar por categoría
+  const grupos = groupBy(items, (i) => i.categoria);
+  const ordenCategorias = ["masculino", "femenino"]; // orden de render
+  const etiquetas = {
+    masculino: {
+      label: "Categoría Masculina",
+      icon: <FaMars className="text-sky-500" />,
+    },
+    femenino: {
+      label: "Categoría Femenina",
+      icon: <FaVenus className="text-rose-500" />,
+    },
+  };
 
   return (
     <section className="mx-auto max-w-6xl px-4">
       <Header periodo={data?.periodo} />
 
-      <div className="mt-10 grid grid-cols-1 md:grid-cols-[1fr_1.1fr] gap-6 items-end">
-        {sub && <Podio item={sub} tier="silver" low />}
-        {champ && <Podio item={champ} tier="gold" highlight />}
-      </div>
+      {ordenCategorias.map((cat) => {
+        const arr = (grupos.get(cat) || []).sort((a, b) => a.pos - b.pos);
+        if (!arr.length) return null;
+        const champ = arr.find((i) => i.pos === 1);
+        const sub = arr.find((i) => i.pos === 2);
 
-      <p className="mt-6 text-center text-xs text-slate-500">
+        return (
+          <div key={cat} className="mt-10">
+            {/* Subheader por categoría */}
+            <div className="mb-3 flex items-center gap-2">
+              {etiquetas[cat]?.icon}
+              <h2 className="text-lg sm:text-xl font-bold">
+                {etiquetas[cat]?.label || cat}
+              </h2>
+            </div>
+
+            {/* Podio 2 niveles */}
+            <div className="grid grid-cols-1 md:grid-cols-[1fr_1.1fr] gap-6 items-end">
+              {sub && <Podio item={sub} tier="silver" low />}
+              {champ && <Podio item={champ} tier="gold" highlight />}
+            </div>
+          </div>
+        );
+      })}
+
+      <p className="mt-8 text-center text-xs text-slate-500">
         Datos mostrados para el periodo {data?.periodo || "actual"}.
       </p>
     </section>
@@ -102,12 +134,14 @@ function Podio({ item, tier = "gold", highlight = false, low = false }) {
           icon: (
             <FaCrown className="text-amber-400 text-xl animate-bounce-slow" />
           ),
+          titleClass: "text-amber-600",
         }
       : {
           ring: "ring-slate-300",
           base: "from-slate-300 to-slate-500",
           glow: "rgba(100, 116, 139, 0.28)",
           icon: <FaMedal className="text-slate-400 text-lg" />,
+          titleClass: "text-slate-600 dark:text-slate-300",
         };
 
   return (
@@ -126,12 +160,13 @@ function Podio({ item, tier = "gold", highlight = false, low = false }) {
           ? `0 12px 45px ${metal.glow}`
           : "0 8px 30px rgba(2,6,23,0.10)",
       }}>
-      {/* Banda superior del equipo */}
+      {/* Banda superior con colores del equipo */}
       <div
         className="h-24"
         style={{ backgroundImage: `linear-gradient(135deg, ${c1}, ${c2})` }}
       />
 
+      {/* Contenido */}
       <div className="p-6 -mt-12 flex flex-col items-center text-center">
         <div
           className={`relative size-24 rounded-full ring-4 ${metal.ring} bg-white overflow-hidden shadow-lg`}>
@@ -152,18 +187,13 @@ function Podio({ item, tier = "gold", highlight = false, low = false }) {
         <div className="mt-2">{metal.icon}</div>
 
         <h3
-          className={`mt-2 text-2xl font-extrabold tracking-tight ${
-            tier === "gold"
-              ? "text-amber-600"
-              : "text-slate-600 dark:text-slate-300"
-          }`}>
+          className={`mt-2 text-2xl font-extrabold tracking-tight ${metal.titleClass}`}>
           {item.equipo}
         </h3>
         <span className="mt-0.5 text-[11px] uppercase tracking-widest text-slate-500">
           {item.titulo || (tier === "gold" ? "Campeón" : "Bicampeón")}
         </span>
 
-        {/* Chips opcionales */}
         {(item.marcador || item.capitan) && (
           <div className="mt-2 flex flex-wrap justify-center gap-2 text-xs text-slate-600 dark:text-slate-300">
             {item.marcador && (
@@ -179,7 +209,7 @@ function Podio({ item, tier = "gold", highlight = false, low = false }) {
           </div>
         )}
 
-        {/* Base */}
+        {/* Base del podio */}
         <div className="mt-5 w-full">
           <div
             className={`mx-auto h-10 w-5/6 rounded-t-xl shadow-inner bg-gradient-to-br ${metal.base}`}
@@ -189,4 +219,24 @@ function Podio({ item, tier = "gold", highlight = false, low = false }) {
       </div>
     </motion.article>
   );
+}
+
+function SkeletonPodios() {
+  return (
+    <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+      {[...Array(2)].map((_, i) => (
+        <div key={i} className="h-56 rounded-2xl bg-slate-200 animate-pulse" />
+      ))}
+    </div>
+  );
+}
+
+function groupBy(arr, keyFn) {
+  const map = new Map();
+  for (const it of arr) {
+    const k = keyFn(it);
+    if (!map.has(k)) map.set(k, []);
+    map.get(k).push(it);
+  }
+  return map;
 }

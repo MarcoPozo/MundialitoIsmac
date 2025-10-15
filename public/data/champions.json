@@ -9,7 +9,8 @@
       "colores": [
         "#f59e0b",
         "#b45309"
-      ]
+      ],
+      "categoria": "masculino"
     },
     {
       "pos": 2,
@@ -19,7 +20,30 @@
       "colores": [
         "#0ea5e9",
         "#0369a1"
-      ]
+      ],
+      "categoria": "masculino"
+    },
+    {
+      "pos": 1,
+      "titulo": "Campeón",
+      "equipo": "Boca Juniors",
+      "escudo": "/escudos/bocaJuniors.png",
+      "colores": [
+        "#22c55e",
+        "#15803d"
+      ],
+      "categoria": "femenino"
+    },
+    {
+      "pos": 2,
+      "titulo": "Bicampeón",
+      "equipo": "Inter Miami",
+      "escudo": "/escudos/interMiami.png",
+      "colores": [
+        "#a78bfa",
+        "#6d28d9"
+      ],
+      "categoria": "femenino"
     }
   ]
 }
