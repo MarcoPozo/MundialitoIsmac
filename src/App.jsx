@@ -5,6 +5,7 @@ import Gallery from "./views/Gallery";
 import Table from "./views/Table";
 import Teams from "./views/Teams";
 import Schedule from "./views/Schedule";
+import Champions from "./views/Champions";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="tabla" element={<Table />} />
         <Route path="equipos" element={<Teams />} />
         <Route path="cronograma" element={<Schedule />} />
+        <Route path="campeones" element={<Champions />} />
       </Route>
     </Routes>
   );

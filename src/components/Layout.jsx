@@ -6,6 +6,7 @@ import PageTransition from "./PageTransition";
 import { Link } from "react-router-dom";
 
 import {
+  FaTrophy,
   FaHome,
   FaCalendarAlt,
   FaTable,
@@ -32,6 +33,12 @@ export default function Layout() {
     { path: "/tabla", label: "Tabla", icon: <FaTable />, enabled: true },
     { path: "/equipos", label: "Equipos", icon: <FaUsers />, enabled: true },
     { path: "/galeria", label: "Galería", icon: <FaImages />, enabled: true },
+    {
+      path: "/campeones",
+      label: "Campeones",
+      icon: <FaTrophy />,
+      enabled: true,
+    },
   ];
 
   useEffect(() => {

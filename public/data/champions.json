@@ -1,0 +1,25 @@
+{
+  "periodo": "2025",
+  "items": [
+    {
+      "pos": 1,
+      "titulo": "Campeón",
+      "equipo": "Botafogo",
+      "escudo": "/escudos/botafogo.png",
+      "colores": [
+        "#f59e0b",
+        "#b45309"
+      ]
+    },
+    {
+      "pos": 2,
+      "titulo": "Bicampeón",
+      "equipo": "Cosmos",
+      "escudo": "/escudos/cosmos.png",
+      "colores": [
+        "#0ea5e9",
+        "#0369a1"
+      ]
+    }
+  ]
+}
