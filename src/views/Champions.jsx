@@ -91,9 +91,9 @@ export default function Champions() {
             </div>
 
             {/* Podio 2 niveles */}
-            <div className="grid grid-cols-1 md:grid-cols-[1fr_1.1fr] gap-6 items-end">
-              {sub && <Podio item={sub} tier="silver" low />}
+            <div className="grid grid-cols-1 md:grid-cols-[1fr_1.1fr] gap-6 items-end mt-6">
               {champ && <Podio item={champ} tier="gold" highlight />}
+              {sub && <Podio item={sub} tier="silver" low />}
             </div>
           </div>
         );
